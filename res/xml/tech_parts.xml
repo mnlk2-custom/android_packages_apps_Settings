@@ -17,6 +17,21 @@ limitations under the License.
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
     <PreferenceCategory
+		android:title="@string/system_info_title">
+		
+        <Preference android:key="device_cpu"
+        style="?android:preferenceInformationStyle"
+        android:title="@string/cpu_info"
+        android:summary="@string/device_info_default"/>
+
+        <Preference android:key="device_memory"
+        style="?android:preferenceInformationStyle"
+        android:title="@string/mem_info"
+        android:summary="@string/device_info_default"/>
+	</PreferenceCategory> 
+
+	
+    <PreferenceCategory
 		android:title="@string/electron_beam_settings_title">
 		
         <CheckBoxPreference android:key="electron_beam_animation_on"
@@ -25,6 +40,7 @@ limitations under the License.
         <CheckBoxPreference android:key="electron_beam_animation_off"
         android:title="@string/pref_electron_beam_animation_off" />
  	</PreferenceCategory> 
+ 
  	
     <PreferenceCategory
 		android:title="@string/Trackball_settings_title">
@@ -37,6 +53,7 @@ limitations under the License.
         android:title="@string/pref_trackball_unlock_title" 
         android:summary="@string/pref_trackball_unlock_summary" />
  	</PreferenceCategory>            
+ 
   
 	<PreferenceCategory
 		android:title="@string/adb_settings_title">  
@@ -55,4 +72,3 @@ limitations under the License.
 
 
 </PreferenceScreen>
-

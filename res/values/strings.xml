@@ -2678,6 +2678,10 @@ found in the list of installed applications.</string>
     <string name="electron_beam_settings_title">Animations Settings</string>	
     <string name="pref_electron_beam_animation_on">Screen-on animation</string>
     <string name="pref_electron_beam_animation_off">Screen-off animation</string>
-
-
+    
+    <!-- System Info-->
+    <string name="cpu_info">CPU Info</string>
+    <string name="mem_info">Mem Info (avail/total)</string>
+   
+        
 </resources>
