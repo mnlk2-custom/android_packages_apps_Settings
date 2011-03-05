@@ -17,6 +17,16 @@ limitations under the License.
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
     <PreferenceCategory
+		android:title="@string/electron_beam_settings_title">
+		
+        <CheckBoxPreference android:key="electron_beam_animation_on"
+        android:title="@string/pref_electron_beam_animation_on" />
+
+        <CheckBoxPreference android:key="electron_beam_animation_off"
+        android:title="@string/pref_electron_beam_animation_off" />
+ 	</PreferenceCategory> 
+ 	
+    <PreferenceCategory
 		android:title="@string/Trackball_settings_title">
 
         <CheckBoxPreference android:key="pref_trackball_wake"
@@ -41,7 +51,6 @@ limitations under the License.
      	android:title="@string/adb_wifi_title"
      	android:summaryOn="@string/adb_wifi_summary_on"
      	android:summaryOff="@string/adb_wifi_summary_off" />     
-        
  	 </PreferenceCategory> 
 
 

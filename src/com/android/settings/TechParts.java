@@ -74,9 +74,13 @@ implements Preference.OnPreferenceChangeListener {
     private CheckBoxPreference mAdbNotify;
     private static final String ADB_WIFI_PREF = "adb_wifi";
     private CheckBoxPreference mAdbWifiPref;    
-
     private static final String ADB_PORT = "5555";
+    private static final String ELECTRON_BEAM_ANIMATION_ON = "electron_beam_animation_on";
+    private CheckBoxPreference mElectronBeamAnimationOn;    
+    private static final String ELECTRON_BEAM_ANIMATION_OFF = "electron_beam_animation_off"; 
+    private CheckBoxPreference mElectronBeamAnimationOff;
 
+    
     public ProgressDialog patience = null;
     final Handler mHandler = new Handler();
     
@@ -105,6 +109,21 @@ implements Preference.OnPreferenceChangeListener {
         /*ADB Notify*/
         mAdbNotify = (CheckBoxPreference) findPreference(ADB_NOTIFY);
         
+        /* Electron Beam control */
+        boolean animateScreenLights = getResources().getBoolean(
+                com.android.internal.R.bool.config_animateScreenLights);
+        mElectronBeamAnimationOn = (CheckBoxPreference)prefSet.findPreference(ELECTRON_BEAM_ANIMATION_ON);
+        mElectronBeamAnimationOn.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.ELECTRON_BEAM_ANIMATION_ON, 0) == 1);
+        mElectronBeamAnimationOff = (CheckBoxPreference)prefSet.findPreference(ELECTRON_BEAM_ANIMATION_OFF);
+        mElectronBeamAnimationOff.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.ELECTRON_BEAM_ANIMATION_OFF, 1) == 1);
+
+        /* Hide Electron Beam controls if electron beam is disabled */
+        if (animateScreenLights) {
+            prefSet.removePreference(mElectronBeamAnimationOn);
+            prefSet.removePreference(mElectronBeamAnimationOff);
+        }        
     }
     
     protected void onResume() {
@@ -136,6 +155,17 @@ implements Preference.OnPreferenceChangeListener {
         if (preference == mAdbNotify) {
         	Settings.Secure.putInt(getContentResolver(), Settings.Secure.ADB_NOTIFY,
         			mAdbNotify.isChecked() ? 1 : 0);
+        }
+        if (preference == mElectronBeamAnimationOn) {
+            value = mElectronBeamAnimationOn.isChecked();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.ELECTRON_BEAM_ANIMATION_ON, value ? 1 : 0);
+        }
+
+        if (preference == mElectronBeamAnimationOff) {
+            value = mElectronBeamAnimationOff.isChecked();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.ELECTRON_BEAM_ANIMATION_OFF, value ? 1 : 0);
         }
 
         return false;
