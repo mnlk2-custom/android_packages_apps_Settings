@@ -2647,4 +2647,31 @@ found in the list of installed applications.</string>
     <string name="sound_category_calls_title">Incoming calls</string>
     <string name="sound_category_notification_title">Notifications</string>
     <string name="sound_category_feedback_title">Feedback</string>
+    
+    	<!-- Advances settings -->
+    <!-- Divers -->	
+    <string name="error">Error</string>	
+    <string name="rebooting">Rebooting...</string>
+    <string name="hardware">Hardware</string> 
+    <string name="download_install_error">Download or install has finished unexpectedly!</string>    
+       
+    <!-- Trackball settings -->
+    <string name="Trackball_settings_title">Trackball Settings</string>
+    <string name="pref_trackball_wake_title">Trackball wake</string>
+    <string name="pref_trackball_wake_summary">Pressing the trackball wakes the device</string>
+    <string name="pref_trackball_unlock_title">Trackball unlock</string>    
+    <string name="pref_trackball_unlock_summary">Pressing the trackball unlock the device</string>
+    
+    <!-- ADB WIFI & USB debugging -->
+    <string name="adb_settings_title">ADB Settings</string>    
+    <string name="adb_notify">USB debugging notify</string>
+    <string name="adb_notify_summary">Display a notification when USB debugging is connected</string>
+    <string name="adb_wifi_title">ADB wireless mode</string>
+    <string name="adb_wifi_summary_on">ADB daemon started in wireless mode</string>
+    <string name="adb_wifi_summary_off">ADB daemon started in usb mode</string>
+    <string name="adb_wifi_on">Starting ADB in wireless mode...</string>
+    <string name="adb_wifi_off">Starting ADB in usb mode...</string>   
+    <string name="adb_instructions_on" formatted="false">Your computer and device must be on the same network.\n\nYou also have to start adb in wireless mode from your computer, run:\n$ adb connect %ip%:%P%</string>
+    <string name="adb_instructions_off">You must plug into usb to get adb access from your computer.\n\nYou also have to restart adb in usb mode from your computer, run:\n$ adb usb</string>
+
 </resources>
