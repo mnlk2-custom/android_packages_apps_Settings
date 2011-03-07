@@ -1159,4 +1159,43 @@
     <string name="sound_category_calls_title" msgid="3688531959256239012">"Appels entrants"</string>
     <string name="sound_category_notification_title" msgid="3502115998790286943">"Notifications"</string>
     <string name="sound_category_feedback_title" msgid="4399742321363475393">"Commentaires"</string>
+    
+        	<!-- Advances settings -->
+    <!-- Divers -->	
+    <string name="mnlk_Settings">Paramètres Avancés</string>
+    <string name="error">Erreur</string>	
+    <string name="rebooting">Redémarrage...</string>
+    <string name="hardware">Hardware</string> 
+    <string name="download_install_error">Download or install has finished unexpectedly!</string>    
+       
+    <!-- Trackball settings -->
+    <string name="Trackball_settings_title">Paramètres du Trackball</string>
+    <string name="pref_trackball_wake_title">Trackball wake</string>
+    <string name="pref_trackball_wake_summary">Réveil l\'écran en appyant sur le Tackball</string>
+    <string name="pref_trackball_unlock_title">Trackball unlock</string>    
+    <string name="pref_trackball_unlock_summary">Déverrouille l\'écran en appyant sur le Tackball</string>
+    
+    <!-- ADB WIFI & USB debugging -->
+    <string name="adb_settings_title">Paramètres ADB</string>    
+    <string name="adb_notify">Notification du Débogage USB</string>
+    <string name="adb_notify_summary">Affiche une notification si téléphone est connecter en mode Débogage USB</string>
+    <string name="adb_wifi_title">Mode ADB WIFI</string>
+    <string name="adb_wifi_summary_on">ADB démarré en mode WIFI</string>
+    <string name="adb_wifi_summary_off">ADB démarré en mode USB\nNE PAS ACTIVER le mode WIFI si le wifi n\'est pas connecté,risque de FC</string>
+    <string name="adb_wifi_on">Demarre ADB en mode WIFI...</string>
+    <string name="adb_wifi_off">Demarre ADB en mode USB...</string>   
+    <string name="adb_instructions_on" formatted="false">Votre PC et l\'appareil doivent être sur le même réseau.\n\nVous devez redémarrer ADB sur le PC en mode sans fil.\nTapez:\n$ adb connect %ip%:%P%</string>
+    <string name="adb_instructions_off">Vous devez brancher le cable USB.\n\nVous devez redémarrer ADB sur le PC en mode USB.\nTapez:\n$ adb usb</string>
+
+	<!-- Electron On / Off  -->
+    <string name="electron_beam_settings_title">Paramètres des Animations</string>	
+    <string name="pref_electron_beam_animation_on">Screen-on animation</string>
+    <string name="pref_electron_beam_animation_off">Screen-off animation</string>
+    
+    <!-- System Info-->
+    <string name="system_info_title">System Info</string>    
+    <string name="cpu_info">CPU Info</string>
+    <string name="mem_info">Mem Info (Dispo./total)</string>
+    <string name="mod_version">Mod version</string>
+    <string name="mod_version_default">Inconnu</string> 
 </resources>

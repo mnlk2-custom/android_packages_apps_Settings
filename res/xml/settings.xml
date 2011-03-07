@@ -177,7 +177,7 @@
   <!-- Tech Parts -->
   <com.android.settings.IconPreferenceScreen
       settings:icon="@drawable/ic_settings_tech_parts"
-      android:title="Advance Settings">
+      android:title="@string/mnlk_Settings">
       <intent
     android:action="android.intent.action.MAIN"
     android:targetPackage="com.android.settings"

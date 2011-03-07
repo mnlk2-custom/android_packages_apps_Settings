@@ -38,7 +38,6 @@ import android.content.SharedPreferences;
 import android.app.admin.DevicePolicyManager;
 import android.content.ContentResolver;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
 import android.os.Bundle;
@@ -58,8 +57,10 @@ import android.text.format.Formatter;
 import android.util.Log;
 import android.view.IWindowManager;
 import android.widget.Toast;
+import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
+import java.io.IOException;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
@@ -84,14 +85,18 @@ implements Preference.OnPreferenceChangeListener {
  
     public ProgressDialog patience = null;
     final Handler mHandler = new Handler();
-   
+    
     
     @Override
-    protected void onCreate(Bundle icicle) {
-        super.onCreate(icicle);
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.tech_parts);
         PreferenceScreen prefSet = getPreferenceScreen();
+
+        
+        /*Modversion*/
+        setValueSummary("mod_version", "ro.modversion");
         
         /*System Info setting*/
         setStringSummary("device_cpu", getCPUInfo());
@@ -136,6 +141,25 @@ implements Preference.OnPreferenceChangeListener {
         mAdbNotify.setChecked(Settings.Secure.getInt(getContentResolver(),
         		Settings.Secure.ADB_NOTIFY, 1) != 0);
     }
+    
+    private void setStringSummary(String preference, String value) {
+        try {
+            findPreference(preference).setSummary(value);
+        } catch (RuntimeException e) {
+            findPreference(preference).setSummary(
+                getResources().getString(R.string.device_info_default));
+        }
+    }   
+    
+    private void setValueSummary(String preference, String property) {
+        try {
+            findPreference(preference).setSummary(
+                    SystemProperties.get(property,
+                            getResources().getString(R.string.device_info_default)));
+        } catch (RuntimeException e) {
+
+        }
+    }    
     
     private Long getMemTotal() {
     	Long total = null;
@@ -251,72 +275,65 @@ implements Preference.OnPreferenceChangeListener {
     	if (preference == mAdbNotify) {
     		Settings.Secure.putInt(getContentResolver(), Settings.Secure.ADB_NOTIFY,
             		mAdbNotify.isChecked() ? 1 : 0);   
-        }	
-        if (preference == mTrackballWakePref) {
+        } else if (preference == mTrackballWakePref) {
             value = mTrackballWakePref.isChecked();
             Settings.System.putInt(getContentResolver(),
                     Settings.System.TRACKBALL_WAKE_SCREEN, value ? 1 : 0);
-            return true;
-        }
-        else if (preference == mTrackballUnlockPref) {
+        } else if (preference == mTrackballUnlockPref) {
             value = mTrackballUnlockPref.isChecked();
             Settings.System.putInt(getContentResolver(),
                     Settings.System.TRACKBALL_UNLOCK_SCREEN, value ? 1 : 0);
-            return true;
-        } 
-        if (preference == mAdbNotify) {
+        } else if (preference == mAdbNotify) {
         	Settings.Secure.putInt(getContentResolver(), Settings.Secure.ADB_NOTIFY,
         			mAdbNotify.isChecked() ? 1 : 0);
-        }
-        if (preference == mElectronBeamAnimationOn) {
+        } else if (preference == mElectronBeamAnimationOn) {
             value = mElectronBeamAnimationOn.isChecked();
             Settings.System.putInt(getContentResolver(),
                     Settings.System.ELECTRON_BEAM_ANIMATION_ON, value ? 1 : 0);
-        }
-
-        if (preference == mElectronBeamAnimationOff) {
+        } else if (preference == mElectronBeamAnimationOff) {
             value = mElectronBeamAnimationOff.isChecked();
             Settings.System.putInt(getContentResolver(),
                     Settings.System.ELECTRON_BEAM_ANIMATION_OFF, value ? 1 : 0);
         }
 
-        return false;
+        return true;
     }
     
      public boolean onPreferenceChange(Preference preference, Object objValue) {
-        if (preference == mAdbWifiPref) {
-        	boolean have = mAdbWifiPref.isChecked();
-        	if (!have) {
-        	WifiManager wifiManager = (WifiManager) getSystemService(WIFI_SERVICE);
-        	WifiInfo wifiInfo = wifiManager.getConnectionInfo();
-        	String ipAddress = null;
-        	if (wifiInfo != null) {
-        	long addr = wifiInfo.getIpAddress();
-        	if (addr != 0) {
-        	// handle negative values whe first octet > 127
-        	if (addr < 0) addr += 0x100000000L;
-        	ipAddress = String.format("%d.%d.%d.%d", addr & 0xFF, (addr >> 8) & 0xFF, (addr >> 16) & 0xFF, (addr >> 24) & 0xFF);
-        	}
-        	}
-        	String[] commands = {
-        	"setprop service.adb.tcp.port " + ADB_PORT,
-        	"stop adbd",
-        	"start adbd"
-        	};
-        	sendshell(commands, false,
-        	getResources().getString(R.string.adb_instructions_on)
-        	.replaceFirst("%ip%", ipAddress)
-        	.replaceFirst("%P%", ADB_PORT));
-        	} else {
-        	String[] commands = {
-        	"setprop service.adb.tcp.port -1",
-        	"stop adbd",
-        	"start adbd"
-        	};
-        	sendshell(commands, false, getResources().getString(R.string.adb_instructions_off));
-        	}
-        }
-        return false;
+         final String key = preference.getKey();    	 
+         if (preference == mAdbWifiPref) {
+     	    boolean have = mAdbWifiPref.isChecked();
+     	    if (!have) {
+     		WifiManager wifiManager = (WifiManager) getSystemService(WIFI_SERVICE);
+     		WifiInfo wifiInfo = wifiManager.getConnectionInfo();
+     		String ipAddress = null;
+     		if (wifiInfo != null) {
+     		    long addr = wifiInfo.getIpAddress();
+     		    if (addr != 0) {
+     			// handle negative values whe first octet > 127
+     			if (addr < 0) addr += 0x100000000L;
+     			ipAddress = String.format("%d.%d.%d.%d", addr & 0xFF, (addr >> 8) & 0xFF, (addr >> 16) & 0xFF, (addr >> 24) & 0xFF);
+     		    }
+     		}
+     		String[] commands = {
+     		    "setprop service.adb.tcp.port " + ADB_PORT,
+     		    "stop adbd",
+     		    "start adbd"
+     		};
+     		sendshell(commands, false,
+     			  getResources().getString(R.string.adb_instructions_on)
+     			  .replaceFirst("%ip%", ipAddress)
+     			  .replaceFirst("%P%", ADB_PORT));
+     	    } else {
+     		String[] commands = {
+     		    "setprop service.adb.tcp.port -1",
+     		    "stop adbd",
+     		    "start adbd"
+     		};
+     		sendshell(commands, false, getResources().getString(R.string.adb_instructions_off));
+     	    }
+         }
+            return true;
     }
 
 

@@ -28,9 +28,14 @@ limitations under the License.
         style="?android:preferenceInformationStyle"
         android:title="@string/mem_info"
         android:summary="@string/device_info_default"/>
-	</PreferenceCategory> 
-
+ 
+		<Preference android:key="mod_version"
+		style="?android:preferenceInformationStyle"
+		android:title="@string/mod_version"
+		android:summary="@string/mod_version_default"/>
+	</PreferenceCategory>
 	
+		
     <PreferenceCategory
 		android:title="@string/electron_beam_settings_title">
 		
