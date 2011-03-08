@@ -46,6 +46,21 @@ limitations under the License.
         android:title="@string/pref_electron_beam_animation_off" />
  	</PreferenceCategory> 
  
+     <PreferenceCategory
+      android:title="@string/lockscreen_settings_title">
+      
+        <CheckBoxPreference
+        android:key="lockscreen_music_controls"
+        android:title="@string/pref_lockscreen_music_controls_title" 
+        android:summary="@string/pref_lockscreen_music_controls_summary" />
+        
+        <CheckBoxPreference
+        android:key="lockscreen_always_music_controls"
+        android:dependency="lockscreen_music_controls"
+        android:title="@string/pref_lockscreen_always_music_controls_title" 
+        android:summary="@string/pref_lockscreen_always_music_controls_summary" />
+    </PreferenceCategory>
+    
  	
     <PreferenceCategory
 		android:title="@string/Trackball_settings_title">
@@ -74,6 +89,6 @@ limitations under the License.
      	android:summaryOn="@string/adb_wifi_summary_on"
      	android:summaryOff="@string/adb_wifi_summary_off" />     
  	 </PreferenceCategory> 
-
+ 	 
 
 </PreferenceScreen>

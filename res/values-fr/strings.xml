@@ -1198,4 +1198,11 @@
     <string name="mem_info">Mem Info (Dispo./total)</string>
     <string name="mod_version">Mod version</string>
     <string name="mod_version_default">Inconnu</string> 
+    
+    <!-- Music control lock screen--> 
+    <string name="lockscreen_settings_title">Paramètres de l\'écran de verrouillage</string>
+    <string name="pref_lockscreen_music_controls_title">Contrôles de la lecture</string>
+    <string name="pref_lockscreen_music_controls_summary">Afficher les contrôles permettant de commander la lecture musicale sur l\'écran de verrouillage</string>
+   
+        
 </resources>

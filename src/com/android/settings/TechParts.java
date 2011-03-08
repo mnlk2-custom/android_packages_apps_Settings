@@ -81,8 +81,11 @@ implements Preference.OnPreferenceChangeListener {
     private CheckBoxPreference mElectronBeamAnimationOn;    
     private static final String ELECTRON_BEAM_ANIMATION_OFF = "electron_beam_animation_off"; 
     private CheckBoxPreference mElectronBeamAnimationOff;
-
- 
+    private static final String LOCKSCREEN_MUSIC_CONTROLS = "lockscreen_music_controls";
+    private CheckBoxPreference mMusicControlPref;
+    private static final String LOCKSCREEN_ALWAYS_MUSIC_CONTROLS = "lockscreen_always_music_controls";
+    private CheckBoxPreference mAlwaysMusicControlPref;
+    
     public ProgressDialog patience = null;
     final Handler mHandler = new Handler();
     
@@ -94,7 +97,6 @@ implements Preference.OnPreferenceChangeListener {
         addPreferencesFromResource(R.xml.tech_parts);
         PreferenceScreen prefSet = getPreferenceScreen();
 
-        
         /*Modversion*/
         setValueSummary("mod_version", "ro.modversion");
         
@@ -129,6 +131,16 @@ implements Preference.OnPreferenceChangeListener {
         mElectronBeamAnimationOff.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.ELECTRON_BEAM_ANIMATION_OFF, 1) == 1);
 
+        /* Music Controls */
+        mMusicControlPref = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_MUSIC_CONTROLS);
+        mMusicControlPref.setChecked(Settings.System.getInt(getContentResolver(), 
+                Settings.System.LOCKSCREEN_MUSIC_CONTROLS, 0) == 1);
+
+        /* Always Display Music Controls */
+        mAlwaysMusicControlPref = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_ALWAYS_MUSIC_CONTROLS);
+        mAlwaysMusicControlPref.setChecked(Settings.System.getInt(getContentResolver(), 
+                Settings.System.LOCKSCREEN_ALWAYS_MUSIC_CONTROLS, 0) == 1);
+        
         /* Hide Electron Beam controls if electron beam is disabled */
         if (animateScreenLights) {
             prefSet.removePreference(mElectronBeamAnimationOn);
@@ -275,28 +287,43 @@ implements Preference.OnPreferenceChangeListener {
     	if (preference == mAdbNotify) {
     		Settings.Secure.putInt(getContentResolver(), Settings.Secure.ADB_NOTIFY,
             		mAdbNotify.isChecked() ? 1 : 0);   
+        } else if (preference == mMusicControlPref) {
+            value = mMusicControlPref.isChecked();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.LOCKSCREEN_MUSIC_CONTROLS, value ? 1 : 0);
+            return true;
+        } else if (preference == mAlwaysMusicControlPref) {
+            value = mAlwaysMusicControlPref.isChecked();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.LOCKSCREEN_ALWAYS_MUSIC_CONTROLS, value ? 1 : 0);
+            return true;            
         } else if (preference == mTrackballWakePref) {
             value = mTrackballWakePref.isChecked();
             Settings.System.putInt(getContentResolver(),
                     Settings.System.TRACKBALL_WAKE_SCREEN, value ? 1 : 0);
+            return true;            
         } else if (preference == mTrackballUnlockPref) {
             value = mTrackballUnlockPref.isChecked();
             Settings.System.putInt(getContentResolver(),
                     Settings.System.TRACKBALL_UNLOCK_SCREEN, value ? 1 : 0);
+            return true;            
         } else if (preference == mAdbNotify) {
         	Settings.Secure.putInt(getContentResolver(), Settings.Secure.ADB_NOTIFY,
         			mAdbNotify.isChecked() ? 1 : 0);
+            return true;        	
         } else if (preference == mElectronBeamAnimationOn) {
             value = mElectronBeamAnimationOn.isChecked();
             Settings.System.putInt(getContentResolver(),
                     Settings.System.ELECTRON_BEAM_ANIMATION_ON, value ? 1 : 0);
+            return true;            
         } else if (preference == mElectronBeamAnimationOff) {
             value = mElectronBeamAnimationOff.isChecked();
             Settings.System.putInt(getContentResolver(),
                     Settings.System.ELECTRON_BEAM_ANIMATION_OFF, value ? 1 : 0);
+            return true;            
         }
 
-        return true;
+        return false;
     }
     
      public boolean onPreferenceChange(Preference preference, Object objValue) {

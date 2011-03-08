@@ -2685,6 +2685,13 @@ found in the list of installed applications.</string>
     <string name="cpu_info">CPU Info</string>
     <string name="mem_info">Mem Info (avail/total)</string>
     <string name="mod_version">Mod version</string>
-    <string name="mod_version_default">Unknown</string>   
+    <string name="mod_version_default">Unknown</string>  
+    
+    <!-- Music control lock screen--> 
+   <string name="lockscreen_settings_title">Paramètres de l\'écran de verrouillage</string>
+    <string name="pref_lockscreen_music_controls_title">Contrôles de la lecture</string>
+    <string name="pref_lockscreen_music_controls_summary">Afficher les contrôles permettant de commander la lecture musicale sur l\'écran de verrouillage</string>
+    <string name="pref_lockscreen_always_music_controls_title">Toujours les afficher</string>
+    <string name="pref_lockscreen_always_music_controls_summary">Toujours afficher les contrôles permettant de commander la lecture musicale, même sans lecture en cours</string>
         
 </resources>
