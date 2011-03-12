@@ -824,7 +824,15 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="com.android.settings.SHORTCUT" />
             </intent-filter>
-        </activity>  
+        </activity>
+        
+   <!-- Power Widget settings-->
+           <activity android:name="WidgetActivity">
+           <intent-filter>
+              <action android:name="android.intent.action.MAIN" />
+           </intent-filter>
+        </activity>
+          
         <receiver android:name=".widget.SettingsAppWidgetProvider"
                 android:label="@string/gadget_title" android:exported="false">
             <intent-filter>

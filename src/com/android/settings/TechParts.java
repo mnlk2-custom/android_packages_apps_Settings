@@ -17,7 +17,7 @@
 package com.android.settings;
 
 import static android.provider.Settings.System.SCREEN_OFF_TIMEOUT;
-
+import android.provider.Settings.SettingNotFoundException;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
@@ -85,7 +85,17 @@ implements Preference.OnPreferenceChangeListener {
     private CheckBoxPreference mMusicControlPref;
     private static final String LOCKSCREEN_ALWAYS_MUSIC_CONTROLS = "lockscreen_always_music_controls";
     private CheckBoxPreference mAlwaysMusicControlPref;
+
+    private static final String UI_EXP_WIDGET = "expanded_widget";
+    private CheckBoxPreference mPowerWidget;
+    private static final String UI_EXP_WIDGET_COLOR = "expanded_color_mask";
+    private Preference mPowerWidgetColor;
+    private static final String UI_EXP_WIDGET_PICKER = "widget_picker";
+    private PreferenceScreen mPowerPicker;
     
+    
+    
+
     public ProgressDialog patience = null;
     final Handler mHandler = new Handler();
     
@@ -140,6 +150,11 @@ implements Preference.OnPreferenceChangeListener {
         mAlwaysMusicControlPref = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_ALWAYS_MUSIC_CONTROLS);
         mAlwaysMusicControlPref.setChecked(Settings.System.getInt(getContentResolver(), 
                 Settings.System.LOCKSCREEN_ALWAYS_MUSIC_CONTROLS, 0) == 1);
+        
+        /* Expanded View Power Widget */
+        mPowerWidget = (CheckBoxPreference) prefSet.findPreference(UI_EXP_WIDGET);
+        mPowerWidgetColor = prefSet.findPreference(UI_EXP_WIDGET_COLOR);
+        mPowerPicker = (PreferenceScreen)prefSet.findPreference(UI_EXP_WIDGET_PICKER);
         
         /* Hide Electron Beam controls if electron beam is disabled */
         if (animateScreenLights) {
@@ -321,8 +336,13 @@ implements Preference.OnPreferenceChangeListener {
             Settings.System.putInt(getContentResolver(),
                     Settings.System.ELECTRON_BEAM_ANIMATION_OFF, value ? 1 : 0);
             return true;            
+        } else if (preference == mPowerPicker) {
+            startActivity(mPowerPicker.getIntent());
+        } else if(preference == mPowerWidget) {
+           value = mPowerWidget.isChecked();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.EXPANDED_VIEW_WIDGET, value ? 1 : 0);
         }
-
         return false;
     }
     
@@ -451,5 +471,6 @@ implements Preference.OnPreferenceChangeListener {
         	t.start();
         	return true;
         	    }
-        	}
+        	
 
+}

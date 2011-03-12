@@ -35,7 +35,18 @@ limitations under the License.
 		android:summary="@string/mod_version_default"/>
 	</PreferenceCategory>
 	
-		
+    <PreferenceCategory
+		android:title="Power widget">
+			
+        <!-- Power widget   - launches activity -->
+        <PreferenceScreen android:key="power_widget"
+                android:title="Power Widget">
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.android.settings"
+                    android:targetClass="com.android.settings.WidgetActivity" />
+        </PreferenceScreen>	
+    </PreferenceCategory> 	
+    
     <PreferenceCategory
 		android:title="@string/electron_beam_settings_title">
 		
