@@ -85,7 +85,8 @@ implements Preference.OnPreferenceChangeListener {
     private CheckBoxPreference mMusicControlPref;
     private static final String LOCKSCREEN_ALWAYS_MUSIC_CONTROLS = "lockscreen_always_music_controls";
     private CheckBoxPreference mAlwaysMusicControlPref;
-
+    private static final String KILL_APP_LONGPRESS_BACK = "kill_app_longpress_back";
+    private CheckBoxPreference mKillAppLongpressBack;    
     private static final String UI_EXP_WIDGET = "expanded_widget";
     private CheckBoxPreference mPowerWidget;
     private static final String UI_EXP_WIDGET_COLOR = "expanded_color_mask";
@@ -156,6 +157,9 @@ implements Preference.OnPreferenceChangeListener {
         mPowerWidgetColor = prefSet.findPreference(UI_EXP_WIDGET_COLOR);
         mPowerPicker = (PreferenceScreen)prefSet.findPreference(UI_EXP_WIDGET_PICKER);
         
+        /*Press Back long Kill*/
+        mKillAppLongpressBack = (CheckBoxPreference) findPreference(KILL_APP_LONGPRESS_BACK);
+        
         /* Hide Electron Beam controls if electron beam is disabled */
         if (animateScreenLights) {
             prefSet.removePreference(mElectronBeamAnimationOn);
@@ -167,6 +171,9 @@ implements Preference.OnPreferenceChangeListener {
         super.onResume();
         mAdbNotify.setChecked(Settings.Secure.getInt(getContentResolver(),
         		Settings.Secure.ADB_NOTIFY, 1) != 0);
+        
+        mKillAppLongpressBack.setChecked(Settings.Secure.getInt(getContentResolver(),
+                Settings.Secure.KILL_APP_LONGPRESS_BACK, 0) != 0);
     }
     
     private void setStringSummary(String preference, String value) {
@@ -342,6 +349,9 @@ implements Preference.OnPreferenceChangeListener {
            value = mPowerWidget.isChecked();
             Settings.System.putInt(getContentResolver(),
                     Settings.System.EXPANDED_VIEW_WIDGET, value ? 1 : 0);
+        } else if (preference == mKillAppLongpressBack) {
+            Settings.Secure.putInt(getContentResolver(), Settings.Secure.KILL_APP_LONGPRESS_BACK,
+                    mKillAppLongpressBack.isChecked() ? 1 : 0);            
         }
         return false;
     }

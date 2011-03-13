@@ -2723,5 +2723,10 @@ found in the list of installed applications.</string>
     <string name="pref_ring_mode_title">Sound modes</string>
     <string name="pref_ring_mode_summary">Choose how the sound button changes modes</string>
 
-        
+    <!-- Setting checkbox title whether to allow killing foreground app by longpress on BACK. -->
+    <string name="kill_app_longpress_back">Stop app via long-press</string>
+    <!-- Setting checkbox summary whether to allow killing foreground app by longpress on BACK. -->
+    <string name="kill_app_longpress_back_summary">Long-pressing the BACK button will kill the foreground application.</string>      
+
+      
 </resources>

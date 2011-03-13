@@ -100,6 +100,14 @@ limitations under the License.
      	android:summaryOn="@string/adb_wifi_summary_on"
      	android:summaryOff="@string/adb_wifi_summary_off" />     
  	 </PreferenceCategory> 
- 	 
 
+	<PreferenceCategory
+		android:title="Divers">  	 
+
+    <CheckBoxPreference
+        android:key="kill_app_longpress_back"
+        android:title="@string/kill_app_longpress_back"
+        android:summary="@string/kill_app_longpress_back_summary" />
+	</PreferenceCategory>
+	
 </PreferenceScreen>
