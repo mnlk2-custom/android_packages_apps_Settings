@@ -93,7 +93,8 @@ implements Preference.OnPreferenceChangeListener {
     private Preference mPowerWidgetColor;
     private static final String UI_EXP_WIDGET_PICKER = "widget_picker";
     private PreferenceScreen mPowerPicker;
-    
+    private static final String UI_EXP_WIDGET_ORDER = "widget_order";
+    private PreferenceScreen mPowerOrder;
     
     
 
@@ -156,6 +157,9 @@ implements Preference.OnPreferenceChangeListener {
         mPowerWidget = (CheckBoxPreference) prefSet.findPreference(UI_EXP_WIDGET);
         mPowerWidgetColor = prefSet.findPreference(UI_EXP_WIDGET_COLOR);
         mPowerPicker = (PreferenceScreen)prefSet.findPreference(UI_EXP_WIDGET_PICKER);
+        mPowerOrder = (PreferenceScreen) prefSet.findPreference(UI_EXP_WIDGET_ORDER);    
+        
+        
         
         /*Press Back long Kill*/
         mKillAppLongpressBack = (CheckBoxPreference) findPreference(KILL_APP_LONGPRESS_BACK);
@@ -349,6 +353,8 @@ implements Preference.OnPreferenceChangeListener {
            value = mPowerWidget.isChecked();
             Settings.System.putInt(getContentResolver(),
                     Settings.System.EXPANDED_VIEW_WIDGET, value ? 1 : 0);
+        } else   if (preference == mPowerOrder) {
+            startActivity(mPowerOrder.getIntent());
         } else if (preference == mKillAppLongpressBack) {
             Settings.Secure.putInt(getContentResolver(), Settings.Secure.KILL_APP_LONGPRESS_BACK,
                     mKillAppLongpressBack.isChecked() ? 1 : 0);            

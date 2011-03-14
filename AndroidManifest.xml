@@ -826,13 +826,7 @@
             </intent-filter>
         </activity>
         
-   <!-- Power Widget settings-->
-           <activity android:name="WidgetActivity">
-           <intent-filter>
-              <action android:name="android.intent.action.MAIN" />
-           </intent-filter>
-        </activity>
-          
+         
         <receiver android:name=".widget.SettingsAppWidgetProvider"
                 android:label="@string/gadget_title" android:exported="false">
             <intent-filter>
@@ -845,5 +839,19 @@
             </intent-filter>
             <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_info" />
         </receiver>
+        
+   <!-- Power Widget settings-->
+        <activity android:name="PowerWidgetActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="PowerWidgetOrderActivity">
+           <intent-filter>
+              <action android:name="android.intent.action.MAIN" />
+           </intent-filter>
+        </activity>        
     </application>
 </manifest>
