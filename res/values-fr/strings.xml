@@ -1169,7 +1169,6 @@
     <string name="download_install_error">Download or install has finished unexpectedly!</string>    
        
     <!-- Trackball settings -->
-    <string name="Trackball_settings_title">Paramètres du Trackball</string>
     <string name="pref_trackball_wake_title">Trackball wake</string>
     <string name="pref_trackball_wake_summary">Réveil l\'écran en appyant sur le Tackball</string>
     <string name="pref_trackball_unlock_title">Trackball unlock</string>    
@@ -1189,8 +1188,8 @@
 
 	<!-- Electron On / Off  -->
     <string name="electron_beam_settings_title">Paramètres des Animations</string>	
-    <string name="pref_electron_beam_animation_on">Screen-on animation</string>
-    <string name="pref_electron_beam_animation_off">Screen-off animation</string>
+    <string name="pref_electron_beam_animation_on">Animation d\'allumage</string>
+    <string name="pref_electron_beam_animation_off">Animation de fermeture</string>
     
     <!-- System Info-->
     <string name="system_info_title">System Info</string>    
@@ -1227,4 +1226,8 @@
     <string name="pref_screentimeout_mode_summary">Choisir comment le bouton Timeout de l\'écran se comportera</string>
     <string name="pref_ring_mode_title">Modes Sonnerie</string>
     <string name="pref_ring_mode_summary">Choisir comment le bouton Sonnerie se comportera</string>
+    
+    <!-- lockscreen_phone_messaging_control -->
+    <string name="pref_lockscreen_phone_messaging_control_title">Téléphone et messages</string>
+    <string name="pref_lockscreen_phone_messaging_control_summary">Accéder au téléphone et aux messages depuis l\'écran de verrouillage</string>
 </resources>

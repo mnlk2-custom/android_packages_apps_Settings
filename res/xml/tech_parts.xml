@@ -77,11 +77,10 @@ limitations under the License.
         android:dependency="lockscreen_music_controls"
         android:title="@string/pref_lockscreen_always_music_controls_title" 
         android:summary="@string/pref_lockscreen_always_music_controls_summary" />
-    </PreferenceCategory>
-    
- 	
-    <PreferenceCategory
-		android:title="@string/Trackball_settings_title">
+        
+        <CheckBoxPreference android:key="lockscreen_phone_messaging_tab"
+        android:title="@string/pref_lockscreen_phone_messaging_control_title" 
+        android:summary="@string/pref_lockscreen_phone_messaging_control_summary" />
 
         <CheckBoxPreference android:key="pref_trackball_wake"
         android:title="@string/pref_trackball_wake_title" 

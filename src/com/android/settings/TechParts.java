@@ -95,7 +95,8 @@ implements Preference.OnPreferenceChangeListener {
     private PreferenceScreen mPowerPicker;
     private static final String UI_EXP_WIDGET_ORDER = "widget_order";
     private PreferenceScreen mPowerOrder;
-    
+    private static final String LOCKSCREEN_PHONE_MESSAGING_TAB = "lockscreen_phone_messaging_tab";
+    private CheckBoxPreference mPhoneMessagingTabPref;
     
 
     public ProgressDialog patience = null;
@@ -159,7 +160,10 @@ implements Preference.OnPreferenceChangeListener {
         mPowerPicker = (PreferenceScreen)prefSet.findPreference(UI_EXP_WIDGET_PICKER);
         mPowerOrder = (PreferenceScreen) prefSet.findPreference(UI_EXP_WIDGET_ORDER);    
         
-        
+        /* Lockscreen Phone Messaging Tab */
+        mPhoneMessagingTabPref = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_PHONE_MESSAGING_TAB);
+        mPhoneMessagingTabPref.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_PHONE_MESSAGING_TAB, 0) == 1);
         
         /*Press Back long Kill*/
         mKillAppLongpressBack = (CheckBoxPreference) findPreference(KILL_APP_LONGPRESS_BACK);
@@ -357,7 +361,12 @@ implements Preference.OnPreferenceChangeListener {
             startActivity(mPowerOrder.getIntent());
         } else if (preference == mKillAppLongpressBack) {
             Settings.Secure.putInt(getContentResolver(), Settings.Secure.KILL_APP_LONGPRESS_BACK,
-                    mKillAppLongpressBack.isChecked() ? 1 : 0);            
+                    mKillAppLongpressBack.isChecked() ? 1 : 0);  
+        } else if (preference == mPhoneMessagingTabPref) {
+            value = mPhoneMessagingTabPref.isChecked();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.LOCKSCREEN_PHONE_MESSAGING_TAB, value ? 1 : 0);
+            return true;            
         }
         return false;
     }
