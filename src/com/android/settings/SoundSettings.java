@@ -322,7 +322,6 @@ public class SoundSettings extends PreferenceActivity implements
         if (KEY_EMERGENCY_TONE.equals(key)) {
             int value = Integer.parseInt((String) objValue);
             try {
-                int value = Integer.parseInt((String) objValue);
                 Settings.System.putInt(getContentResolver(),
                         Settings.System.EMERGENCY_TONE, value);
             } catch (NumberFormatException e) {

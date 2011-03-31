@@ -40,9 +40,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.zip.GZIPInputStream;
 
-import com.android.internal.app.AlertActivity;
-import com.android.internal.app.AlertController;
-
 /**
  * The "dialog" that shows from "License" in the Settings app.
  */
@@ -150,9 +147,6 @@ public class SettingsLicenseActivity extends Activity {
 
         mHandler = new Handler() {
 
-        // Begin the loading.  This will be done in a separate thread in WebView.
-        webView.loadDataWithBaseURL(null, data.toString(), "text/html", "utf-8", null);
-        webView.setWebViewClient(new WebViewClient() {
             @Override
             public void handleMessage(Message msg) {
                 super.handleMessage(msg);
@@ -223,5 +217,4 @@ public class SettingsLicenseActivity extends Activity {
                 .show();
         finish();
     }
-
 }
