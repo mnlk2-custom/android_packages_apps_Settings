@@ -177,6 +177,8 @@
     <string name="battery_info_health_over_voltage">Over voltage</string>
     <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_health_unspecified_failure">Unknown error</string>
+    <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="battery_info_health_cold">Cold</string>
 
     <!-- Used as setting title (for checkbox) on second screen after selecting Bluetooth settings -->
     <string name="bluetooth">Bluetooth</string>
@@ -2647,6 +2649,7 @@ found in the list of installed applications.</string>
     <string name="sound_category_calls_title">Incoming calls</string>
     <string name="sound_category_notification_title">Notifications</string>
     <string name="sound_category_feedback_title">Feedback</string>
+<<<<<<< HEAD
     
     	<!-- Advances settings -->
     <!-- Divers -->	
@@ -2743,3 +2746,6 @@ found in the list of installed applications.</string>
 
       
 </resources>
+=======
+</resources>
+>>>>>>> 7fceefa79229ece2efab0446841543a8f8f20a1d
