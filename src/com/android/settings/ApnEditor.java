@@ -52,10 +52,8 @@ public class ApnEditor extends PreferenceActivity
     private static final int MENU_DELETE = Menu.FIRST;
     private static final int MENU_SAVE = Menu.FIRST + 1;
     private static final int MENU_CANCEL = Menu.FIRST + 2;
-<<<<<<< HEAD
-=======
     private static final int ERROR_DIALOG_ID = 0;
->>>>>>> 7fceefa79229ece2efab0446841543a8f8f20a1d
+
 
     private static String sNotSet;
     private EditTextPreference mName;
@@ -237,11 +235,8 @@ public class ApnEditor extends PreferenceActivity
             int authVal = mCursor.getInt(AUTH_TYPE_INDEX);
             if (authVal != -1) {
                 mAuthType.setValueIndex(authVal);
-<<<<<<< HEAD
-=======
             } else {
                 mAuthType.setValue(null);
->>>>>>> 7fceefa79229ece2efab0446841543a8f8f20a1d
             }
 
         }
@@ -357,24 +352,8 @@ public class ApnEditor extends PreferenceActivity
         String mcc = checkNotSet(mMcc.getText());
         String mnc = checkNotSet(mMnc.getText());
 
-<<<<<<< HEAD
-        String errorMsg = null;
-        if (name.length() < 1) {
-            errorMsg = mRes.getString(R.string.error_name_empty);
-        } else if (apn.length() < 1) {
-            errorMsg = mRes.getString(R.string.error_apn_empty);
-        } else if (mcc.length() != 3) {
-            errorMsg = mRes.getString(R.string.error_mcc_not3);
-        } else if ((mnc.length() & 0xFFFE) != 2) {
-            errorMsg = mRes.getString(R.string.error_mnc_not23);
-        }
-
-        if (errorMsg != null && !force) {
-            showErrorMessage(errorMsg);
-=======
         if (getErrorMsg() != null && !force) {
             showDialog(ERROR_DIALOG_ID);
->>>>>>> 7fceefa79229ece2efab0446841543a8f8f20a1d
             return false;
         }
 
@@ -429,14 +408,6 @@ public class ApnEditor extends PreferenceActivity
         return true;
     }
 
-<<<<<<< HEAD
-    private void showErrorMessage(String message) {
-        new AlertDialog.Builder(this)
-            .setTitle(R.string.error_title)
-            .setMessage(message)
-            .setPositiveButton(android.R.string.ok, null)
-            .show();
-=======
     private String getErrorMsg() {
         String errorMsg = null;
 
@@ -485,7 +456,6 @@ public class ApnEditor extends PreferenceActivity
                 ((AlertDialog)dialog).setMessage(msg);
             }
         }
->>>>>>> 7fceefa79229ece2efab0446841543a8f8f20a1d
     }
 
     private void deleteApn() {
