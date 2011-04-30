@@ -1,18 +1,18 @@
 /*
- * Copyright (C) 2008 The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
 
 package com.android.settings;
 
@@ -42,8 +42,8 @@ import java.util.ArrayList;
 import java.util.Locale;
 
 /*
- * Displays preferences for Tethering.
- */
+* Displays preferences for Tethering.
+*/
 public class TetherSettings extends PreferenceActivity {
     private static final String USB_TETHER_SETTINGS = "usb_tether_settings";
     private static final String ENABLE_WIFI_AP = "enable_wifi_ap";
@@ -67,6 +67,7 @@ public class TetherSettings extends PreferenceActivity {
     private BroadcastReceiver mTetherChangeReceiver;
 
     private String[] mUsbRegexs;
+    private ArrayList mUsbIfaces;
 
     private String[] mWifiRegexs;
 
@@ -160,8 +161,7 @@ public class TetherSettings extends PreferenceActivity {
                         ConnectivityManager.EXTRA_ACTIVE_TETHER);
                 ArrayList<String> errored = intent.getStringArrayListExtra(
                         ConnectivityManager.EXTRA_ERRORED_TETHER);
-                updateState((String[]) available.toArray(), (String[]) active.toArray(),
-                        (String[]) errored.toArray());
+                updateState(available.toArray(), active.toArray(), errored.toArray());
             } else if (intent.getAction().equals(Intent.ACTION_MEDIA_SHARED) ||
                        intent.getAction().equals(Intent.ACTION_MEDIA_UNSHARED)) {
                 updateState();
@@ -205,8 +205,8 @@ public class TetherSettings extends PreferenceActivity {
         updateState(available, tethered, errored);
     }
 
-    private void updateState(String[] available, String[] tethered,
-            String[] errored) {
+    private void updateState(Object[] available, Object[] tethered,
+            Object[] errored) {
         ConnectivityManager cm =
                 (ConnectivityManager)getSystemService(Context.CONNECTIVITY_SERVICE);
         boolean usbTethered = false;
@@ -215,7 +215,8 @@ public class TetherSettings extends PreferenceActivity {
         boolean usbErrored = false;
         boolean massStorageActive =
                 Environment.MEDIA_SHARED.equals(Environment.getExternalStorageState());
-        for (String s : available) {
+        for (Object o : available) {
+            String s = (String)o;
             for (String regex : mUsbRegexs) {
                 if (s.matches(regex)) {
                     usbAvailable = true;
@@ -225,12 +226,14 @@ public class TetherSettings extends PreferenceActivity {
                 }
             }
         }
-        for (String s : tethered) {
+        for (Object o : tethered) {
+            String s = (String)o;
             for (String regex : mUsbRegexs) {
                 if (s.matches(regex)) usbTethered = true;
             }
         }
-        for (String s: errored) {
+        for (Object o: errored) {
+            String s = (String)o;
             for (String regex : mUsbRegexs) {
                 if (s.matches(regex)) usbErrored = true;
             }
