@@ -31,63 +31,63 @@
     <!-- Phone Info screen. Button label to turn off the radio . Only shown in diagnostic screen, so precise translation is not needed. -->
     <string name="turn_off_radio">Turn off radio</string>
 
-    <!-- Phone Info screen. Menu item label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Phone Info screen. Menu item label. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_menu_viewADN">View SIM address book</string>
-    <!-- Phone Info screen. Menu item label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Phone Info screen. Menu item label. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_menu_viewFDN">View Fixed Dialing Numbers</string>
-    <!-- Phone Info screen. Menu item label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Phone Info screen. Menu item label. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_menu_viewSDN">View Service Dialing Numbers</string>
-    <!-- Phone Info screen. Menu item label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Phone Info screen. Menu item label. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_menu_getPDP">Get PDP list</string>
 
-    <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Phone Info screen. Status label. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_service_in">In service</string>
-    <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Phone Info screen. Status label. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_service_out">Out of service</string>
-    <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Phone Info screen. Status label. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_service_emergency">Emergency calls only</string>
-    <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Phone Info screen. Status label. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_service_off">Radio off</string>
 
-    <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Phone Info screen. Status label. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_roaming_in">Roaming</string>
-    <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Phone Info screen. Status label. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_roaming_not">Not roaming</string>
 
-    <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Phone Info screen. Status label. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_phone_idle">Idle</string>
-    <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Phone Info screen. Status label. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_phone_ringing">Ringing</string>
-    <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Phone Info screen. Status label. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_phone_offhook">Call in progress</string>
 
-    <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Phone Info screen. Status label. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_data_disconnected">Disconnected</string>
-    <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Phone Info screen. Status label. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_data_connecting">Connecting</string>
-    <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Phone Info screen. Status label. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_data_connected">Connected</string>
-    <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Phone Info screen. Status label. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_data_suspended">Suspended</string>
 
     <!-- Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_unknown">unknown</string>
-    <!-- Phone Info screen. Units shown after a value.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Phone Info screen. Units shown after a value. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_display_packets">pkts</string>
-    <!-- Phone Info screen. Units shown after a value.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Phone Info screen. Units shown after a value. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_display_bytes">bytes</string>
-    <!-- Phone Info screen. Units shown after a value.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Phone Info screen. Units shown after a value. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_display_dbm">dBm</string>
-    <!-- Phone Info screen. Units shown after a value.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Phone Info screen. Units shown after a value. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_display_asu">asu</string>
     <!-- Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_lac">LAC</string>
     <!-- Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_cid">CID</string>
 
-    <!-- Used for diagnostic info screens, precise translation isn't needed. Unmounts the SD card from the phone, meaning it will become available for an attached computer  [CHAR LIMIT=25] -->
+    <!-- Used for diagnostic info screens, precise translation isn't needed. Unmounts the SD card from the phone, meaning it will become available for an attached computer [CHAR LIMIT=25] -->
     <string name="sdcard_unmount" product="nosdcard">Unmount USB storage</string>
-    <!-- Used for diagnostic info screens, precise translation isn't needed. Unmounts the SD card from the phone, meaning it will become available for an attached computer  -->
+    <!-- Used for diagnostic info screens, precise translation isn't needed. Unmounts the SD card from the phone, meaning it will become available for an attached computer -->
     <string name="sdcard_unmount" product="default">Unmount SD card</string>
 
     <!-- Used for diagnostic info screens, precise translation isn't needed. Formats the SD card in the phone, meaning it will be erased and reformatted [CHAR LIMIT=25] -->
@@ -102,7 +102,7 @@
     <!-- choice for the font size spinner -->
     <string name="large_font">Large</string>
 
-    <!-- Do not translate. label for font size preview.  Does not need to be translated. -->
+    <!-- Do not translate. label for font size preview. Does not need to be translated. -->
     <string name="font_size_preview_text">Servez à ce monsieur une bière et des kiwis.</string>
     <!-- Button. Chosen when they want to save the chosen text size. -->
     <string name="font_size_save">OK</string>
@@ -113,71 +113,71 @@
     <string name="sdcard_setting" product="default">SD card</string>
 
 
-    <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Battery Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_status_label">Battery status:</string>
-    <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Battery Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_power_label">Power plug:</string>
-    <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Battery Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_scale_label">Battery scale:</string>
-    <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Battery Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_level_label">Battery level:</string>
-    <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Battery Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_health_label">Battery health:</string>
-    <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Battery Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_technology_label">Battery technology:</string>
-    <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Battery Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_voltage_label">Battery voltage:</string>
-    <!-- Battery Info screen. Units shown after a value.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Battery Info screen. Units shown after a value. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_voltage_units">mV</string>
-    <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Battery Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_temperature_label">Battery temperature:</string>
-    <!-- Battery Info screen. Units shown after a value.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Battery Info screen. Units shown after a value. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_temperature_units">\u00B0 C</string>
-    <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Battery Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_uptime">Time since boot:</string>
-    <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Battery Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_awake_battery">Awake time on battery:</string>
-    <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Battery Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_awake_plugged">Awake time when charging:</string>
-    <!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Battery Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_screen_on">Screen ON time:</string>
 
 
-    <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Battery Info screen. Value for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_status_unknown">Unknown</string>
-    <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Battery Info screen. Value for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_status_charging">Charging</string>
-    <!-- Battery Info screen. Units shown after a value.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Battery Info screen. Units shown after a value. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_status_charging_ac">(AC)</string>
-    <!-- Battery Info screen. Units shown after a value.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Battery Info screen. Units shown after a value. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_status_charging_usb">(USB)</string>
-    <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Battery Info screen. Value for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_status_discharging">Discharging</string>
-    <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Battery Info screen. Value for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_status_not_charging">Not charging</string>
-    <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Battery Info screen. Value for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_status_full">Full</string>
 
-    <!-- Battery Info screen. Units shown after a value.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Battery Info screen. Units shown after a value. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_power_unplugged">Unplugged</string>
     <string name="battery_info_power_ac">AC</string>
     <string name="battery_info_power_usb">USB</string>
     <string name="battery_info_power_ac_usb">AC+USB</string>
     <string name="battery_info_power_unknown">Unknown</string>
 
-    <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Battery Info screen. Value for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_health_unknown">Unknown</string>
-    <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Battery Info screen. Value for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_health_good">Good</string>
-    <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Battery Info screen. Value for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_health_overheat">Overheat</string>
-    <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Battery Info screen. Value for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_health_dead">Dead</string>
-    <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Battery Info screen. Value for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_health_over_voltage">Over voltage</string>
-    <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Battery Info screen. Value for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_health_unspecified_failure">Unknown error</string>
-    <!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Battery Info screen. Value for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_health_cold">Cold</string>
 
     <!-- Used as setting title (for checkbox) on second screen after selecting Bluetooth settings -->
@@ -204,17 +204,17 @@
     <string name="bluetooth_name_not_set">No name set, using account name</string>
     <!-- Bluetooth settings screen, menu item to scan for nearby bluetooth devices -->
     <string name="bluetooth_scan_for_devices">Scan for devices</string>
-    <!-- Bluetooth settings.  Message for disconnecting from a bluetooth device -->
+    <!-- Bluetooth settings. Message for disconnecting from a bluetooth device -->
     <string name="bluetooth_disconnect_blank"><xliff:g id="device_name">%1$s</xliff:g> will be disconnected.</string>
-    <!-- Bluetooth settings.  Message when cnonected to a device -->
+    <!-- Bluetooth settings. Message when cnonected to a device -->
     <string name="bluetooth_connected">Connected</string>
-    <!-- Bluetooth settings.  Message when a device is disconnected -->
+    <!-- Bluetooth settings. Message when a device is disconnected -->
     <string name="bluetooth_disconnected">Disconnected</string>
-    <!-- Bluetooth settings.  Message when disconnecting from a device -->
+    <!-- Bluetooth settings. Message when disconnecting from a device -->
     <string name="bluetooth_disconnecting">Disconnecting\u2026</string>
-    <!-- Bluetooth settings.  Message when connecting to a device -->
+    <!-- Bluetooth settings. Message when connecting to a device -->
     <string name="bluetooth_connecting">Connecting\u2026</string>
-    <!-- Bluetooth settings.  Message when the device state is unknown -->
+    <!-- Bluetooth settings. Message when the device state is unknown -->
     <string name="bluetooth_unknown"></string>
     <!--Bluetooth settings screen, summary text under individual Bluetooth devices when not paired yet -->
     <string name="bluetooth_not_connected">Pair with this device</string>
@@ -265,9 +265,9 @@
 
     <!-- Date & time settings screen title -->
     <string name="date_and_time">Date &amp; time settings</string>
-    <!-- Date/time settings.  Summary of the checkbox for choosing between 12 hour time or 24 hour time.  Sample of 12-hour time -->
+    <!-- Date/time settings. Summary of the checkbox for choosing between 12 hour time or 24 hour time. Sample of 12-hour time -->
     <string name="date_time_12_hour_sample">1:00 pm</string>
-    <!-- Date/time settings.  Summary of the checkbox for choosing between 12 hour time or 24 hour time.  Sample of 24-hour time -->
+    <!-- Date/time settings. Summary of the checkbox for choosing between 12 hour time or 24 hour time. Sample of 24-hour time -->
     <string name="date_time_24_hour_sample">13:00</string>
     <!-- Title of the dialog for setting the time. -->
     <string name="date_time_changeTime_text">Change time</string>
@@ -323,74 +323,74 @@
     <!-- HTTP proxy settings. Error msg -->
     <string name="proxy_error_invalid_port">The port you typed is not valid.</string>
 
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_signal_location_label">Location:</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_neighboring_location_label">Neighboring CID:</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_data_attempts_label">Data attempts:</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
 
     <string name="radio_info_gprs_service_label">GPRS service:</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_roaming_label">Roaming:</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_imei_label">IMEI:</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_call_redirect_label">Call redirect:</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_ppp_resets_label">Number of PPP reset since boot:</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_gsm_disconnects_label">GSM disconnects:</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_current_network_label">Current network:</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_data_successes_label">Data successes:</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_ppp_received_label">PPP received:</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_gsm_service_label">GSM service:</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_signal_strength_label">Signal strength:</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_call_status_label">Call status:</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_ppp_sent_label">PPP sent:</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_radio_resets_label">Radio resets:</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_message_waiting_label">Message waiting:</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_phone_number_label">Phone number:</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_band_mode_label">Select radio band</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_network_type_label">Network type:</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_set_perferred_label">Set preferred network type:</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_ping_ipaddr">Ping IpAddr:</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_ping_hostname">Ping Hostname(www.google.com):</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_http_client_test">HTTP Client test:</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="ping_test_label">Run ping test</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_smsc_label">SMSC:</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_smsc_update_label">Update</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_smsc_refresh_label">Refresh</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radio_info_toggle_dns_check_label">Toggle DNS check</string>
-    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <!-- Radio Info screen. Label for a status item. Used for diagnostic info screens, precise translation isn't needed -->
     <string name="oem_radio_info_label">OEM-specific Info/Settings</string>
 
     <!-- Band Mode Selection -->
-    <!-- Band mode screen.  Title of activity. -->
+    <!-- Band mode screen. Title of activity. -->
     <string name="band_mode_title">Set GSM/UMTS band</string>
-    <!-- Band mode screen.  Loading message. -->
+    <!-- Band mode screen. Loading message. -->
     <string name="band_mode_loading">Loading band list\u2026</string>
     <!-- Band mode screen. Button caption to set the bandmode. -->
     <string name="band_mode_set">Set</string>
@@ -425,7 +425,7 @@
     <string name="sdcard_settings_bad_removal_status" product="default">SD card was removed while still in use!</string>
     <!-- Label for used bytes on the SD card -->
     <string name="sdcard_settings_used_bytes_label">Used bytes:</string>
-    <!-- Message when it is scanning the SD card for new files [CHAR LIMIT=30]  -->
+    <!-- Message when it is scanning the SD card for new files [CHAR LIMIT=30] -->
     <string name="sdcard_settings_scanning_status" product="nosdcard">Scanning USB storage for media\u2026</string>
     <!-- Message when it is scanning the SD card for new files -->
     <string name="sdcard_settings_scanning_status" product="default">Scanning SD card for media\u2026</string>
@@ -434,7 +434,7 @@
     <!-- Message when the SD card is mounted as read only -->
     <string name="sdcard_settings_read_only_status" product="default">SD card mounted read-only</string>
 
-    <!-- SetupWizard strings used by DateTimeSettingsSetupWizard.  The button label for going to the next screen. -->
+    <!-- SetupWizard strings used by DateTimeSettingsSetupWizard. The button label for going to the next screen. -->
     <string name="next_label">Next</string>
 
     <!-- LocalePicker -->
@@ -443,7 +443,7 @@
     <!-- Locale picker screen. Label for choosing the locale -->
     <string name="select_your_language">Select your language</string>
 
-    <!-- The title of the dialog to pick an activity.  This is shown when there are multiple activities that can do a particular action.  For example, suppose you click on the "Share" menu item in the Browser.  Since you can share the webpage URL via many communication methods, this dialog would come up with choices like "Email", "IM", etc.  This is a generic message, and the previous example is a single possible scenario (so please don't assume it's for the browser or anything :) ). -->
+    <!-- The title of the dialog to pick an activity. This is shown when there are multiple activities that can do a particular action. For example, suppose you click on the "Share" menu item in the Browser. Since you can share the webpage URL via many communication methods, this dialog would come up with choices like "Email", "IM", etc. This is a generic message, and the previous example is a single possible scenario (so please don't assume it's for the browser or anything :) ). -->
     <string name="activity_picker_label">Select activity</string>
     <!-- Do not translate. -->
     <string name="debug_intent_sender_label">Debug intent sender</string>
@@ -479,11 +479,11 @@
     <string name="airplane_mode">Airplane mode</string>
     <!-- Wireless controls settings screen, setting option summary text -->
     <string name="airplane_mode_summary">Disable all wireless connections</string>
-    <!-- Wireless controls settings screen, setting option summary text as airplane mode is being enabled (so it is disabling all wireless connections)  -->
+    <!-- Wireless controls settings screen, setting option summary text as airplane mode is being enabled (so it is disabling all wireless connections) -->
     <string name="airplane_mode_turning_on">Disabling wireless connections\u2026</string>
     <!-- Wireless controls settings screen, setting option summary text as airplane mode is being disabled (so it is re-enabling all the wireless conenctions) -->
     <string name="airplane_mode_turning_off">Enabling wireless connections\u2026</string>
-    <!-- Main Settings screen settings title for things like Wi-Fi, bluetooth, airplane mode.  This will take you to another screen with those settings. -->
+    <!-- Main Settings screen settings title for things like Wi-Fi, bluetooth, airplane mode. This will take you to another screen with those settings. -->
     <string name="radio_controls_title">Wireless &amp; networks</string>
     <!-- Wireless Settings screen title for things like Wi-Fi, bluetooth, airplane mode. -->
     <string name="wireless_networks_settings_title">Wireless &amp; network settings</string>
@@ -529,7 +529,7 @@
     <string name="date_time_set_timezone">Select time zone</string>
     <!-- Date & time setting screen setting option title -->
     <string name="date_time_set_date">Set date</string>
-    <!-- Date & time setting screen setting option title.  This setting allows the user to choose how the date should be displayed in apps (what ordering for month and day, etc.) -->
+    <!-- Date & time setting screen setting option title. This setting allows the user to choose how the date should be displayed in apps (what ordering for month and day, etc.) -->
     <string name="date_time_date_format">Select date format</string>
     <!-- Menu item on Select time zone screen -->
     <string name="zone_list_menu_sort_alphabetically">Sort alphabetically</string>
@@ -546,26 +546,26 @@
     <string name="security_settings_summary">Set My Location, screen unlock, SIM card lock, credential storage lock</string>
     <!-- Main Settings screen setting option summary text for the item to take you to the CDMA security and location screen -->
     <string name="cdma_security_settings_summary">Set My Location, screen unlock, credential storage lock</string>
-    <!-- In the security screen, the header title for settings related to  Passwords-->
+    <!-- In the security screen, the header title for settings related to Passwords-->
     <string name="security_passwords_title">Passwords</string>
 
     <!-- Unlock Picker Settings --><skip />
 
     <!-- Security Picker --><skip />
-    <!--  Title for security picker to choose the unlock method: None/Pattern/PIN/Password -->
+    <!-- Title for security picker to choose the unlock method: None/Pattern/PIN/Password -->
     <string name="lock_settings_picker_title">Screen unlock security</string>
 
-    <!--  Main Security lock settings --><skip />
-    <!--  Title for PreferenceScreen to launch picker for security method when there is none -->
+    <!-- Main Security lock settings --><skip />
+    <!-- Title for PreferenceScreen to launch picker for security method when there is none -->
     <string name="unlock_set_unlock_launch_picker_title">Set up screen lock</string>
 
-    <!--  Summary for PreferenceScreen to launch picker for security method when there is none -->
+    <!-- Summary for PreferenceScreen to launch picker for security method when there is none -->
     <string name="unlock_set_unlock_launch_picker_summary">Lock screen with a pattern, PIN, or password</string>
 
-    <!--  Title for PreferenceScreen to change security method: None/Pattern/PIN/Password  -->
+    <!-- Title for PreferenceScreen to change security method: None/Pattern/PIN/Password -->
     <string name="unlock_set_unlock_launch_picker_change_title">Change screen lock</string>
 
-    <!--  Summary for PreferenceScreen to changeecurity method: None/Pattern/PIN/Password  -->
+    <!-- Summary for PreferenceScreen to changeecurity method: None/Pattern/PIN/Password -->
     <string name="unlock_set_unlock_launch_picker_change_summary">Change or disable pattern, PIN, or password security</string>
 
 
@@ -579,9 +579,9 @@
     <!-- Summary for preference that guides the user through creating an unlock pattern -->
     <string name="unlock_set_unlock_pattern_summary">Draw pattern to unlock screen</string>
 
-    <!-- Title for preference that guides the user through creating an unlock PIN (Personal Identification Number)  -->
+    <!-- Title for preference that guides the user through creating an unlock PIN (Personal Identification Number) -->
     <string name="unlock_set_unlock_pin_title">PIN</string>
-    <!-- Summary for preference that guides the user through creating an unlock PIN (Personal Identification Number)  -->
+    <!-- Summary for preference that guides the user through creating an unlock PIN (Personal Identification Number) -->
     <string name="unlock_set_unlock_pin_summary">Enter a numeric PIN to unlock screen</string>
 
     <!-- Title for preference that guides the user through creating an unlock password -->
@@ -668,7 +668,7 @@
     <!--Wireless controls screen, settings summary for the item tot ake you to the bluetooth settings screen -->
     <string name="bluetooth_settings_summary">Manage connections, set device name &amp; discoverability</string>
 
-    <!-- Title for the dialog to enter PIN.  -->
+    <!-- Title for the dialog to enter PIN. -->
     <string name="bluetooth_pairing_request">Bluetooth pairing request</string>
     <!-- Title for the bluetooth device info screen. -->
     <string name="bluetooth_device_info">Bluetooth device info</string>
@@ -686,7 +686,7 @@
     <string name="bluetooth_pairing_accept">Pair</string>
     <!-- Button text for declining an incoming pairing request -->
     <string name="bluetooth_pairing_decline">Don\u0027t Pair</string>
-    <!-- Generic string for remote Bluetooth device  -->
+    <!-- Generic string for remote Bluetooth device -->
     <string name="bluetooth_remote_device">bluetooth device</string>
 
     <!-- Title for BT error dialogs. -->
@@ -716,69 +716,69 @@
     <!-- Bluetooth settings: The title of the preference (list item) that initiates a scan for devices -->
     <string name="bluetooth_preference_scan_title">Scan for devices</string>
 
-    <!-- Bluetooth settings.  Context menu item for a device.  Action will connect to all profiles on the device. -->
+    <!-- Bluetooth settings. Context menu item for a device. Action will connect to all profiles on the device. -->
     <string name="bluetooth_device_context_connect">Connect</string>
-    <!-- Bluetooth settings.  Context menu item for a device.  Action will disconnect from all profiles on the device. -->
+    <!-- Bluetooth settings. Context menu item for a device. Action will disconnect from all profiles on the device. -->
     <string name="bluetooth_device_context_disconnect">Disconnect</string>
-    <!-- Bluetooth settings.  Context menu item for a device.  Action will first pair, and then connect to all profiles on the device. -->
+    <!-- Bluetooth settings. Context menu item for a device. Action will first pair, and then connect to all profiles on the device. -->
     <string name="bluetooth_device_context_pair_connect">Pair &amp; connect</string>
-    <!-- Bluetooth settings.  Context menu item for a device.  Action will remove pairing with the device. -->
+    <!-- Bluetooth settings. Context menu item for a device. Action will remove pairing with the device. -->
     <string name="bluetooth_device_context_unpair">Unpair</string>
-    <!-- Bluetooth settings.  Context menu item for a device.  Action will disconnect and remove pairing with the device. -->
+    <!-- Bluetooth settings. Context menu item for a device. Action will disconnect and remove pairing with the device. -->
     <string name="bluetooth_device_context_disconnect_unpair">Disconnect &amp; unpair</string>
-    <!-- Bluetooth settings.  Context menu item for a device.  Action will take the user to another screen where they can choose exactly which profiles to connect to. -->
+    <!-- Bluetooth settings. Context menu item for a device. Action will take the user to another screen where they can choose exactly which profiles to connect to. -->
     <string name="bluetooth_device_context_connect_advanced">Options\u2026</string>
 
-    <!-- Bluetooth settings.  The title of the screen to pick which profiles to connect to on the device.  For example, headphones may have both A2DP and headset, this allows the user to choose which one he wants to connect to. -->
+    <!-- Bluetooth settings. The title of the screen to pick which profiles to connect to on the device. For example, headphones may have both A2DP and headset, this allows the user to choose which one he wants to connect to. -->
     <string name="bluetooth_connect_specific_profiles_title">Connect to\u2026</string>
 
-    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the A2DP profile. -->
+    <!-- Bluetooth settings. The user-visible string that is used whenever referring to the A2DP profile. -->
     <string name="bluetooth_profile_a2dp">Media</string>
-    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the headset or handsfree profile. -->
+    <!-- Bluetooth settings. The user-visible string that is used whenever referring to the headset or handsfree profile. -->
     <string name="bluetooth_profile_headset">Phone</string>
-    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the OPP profile. -->
+    <!-- Bluetooth settings. The user-visible string that is used whenever referring to the OPP profile. -->
     <string name="bluetooth_profile_opp">Transfer</string>
 
-    <!-- Bluetooth settings.  The summary string when a device is connected to the A2DP profile. -->
+    <!-- Bluetooth settings. The summary string when a device is connected to the A2DP profile. -->
     <string name="bluetooth_summary_connected_to_a2dp">Connected to media audio</string>
-    <!-- Bluetooth settings.  The summary string when a device is connected to the headset profile. -->
+    <!-- Bluetooth settings. The summary string when a device is connected to the headset profile. -->
     <string name="bluetooth_summary_connected_to_headset">Connected to phone audio</string>
-    <!-- Bluetooth settings.  The summary string when a device is connected to the A2DP and headset profiles. -->
+    <!-- Bluetooth settings. The summary string when a device is connected to the A2DP and headset profiles. -->
     <string name="bluetooth_summary_connected_to_a2dp_headset">Connected to phone and media audio</string>
 
-    <!-- Bluetooth settings.  Connection options screen.  The title of the screen. -->
+    <!-- Bluetooth settings. Connection options screen. The title of the screen. -->
     <string name="bluetooth_device_advanced_title"><xliff:g id="device_name">%1$s</xliff:g> options</string>
-    <!-- Bluetooth settings.  Connection options screen.  The title of the checkbox that controls whether the device is in "online" mode or "offline" mode.  This essentially is the checkbox that controls whether any checks / unchecks on a profile should be applied immediately, or next time the device is connected. -->
+    <!-- Bluetooth settings. Connection options screen. The title of the checkbox that controls whether the device is in "online" mode or "offline" mode. This essentially is the checkbox that controls whether any checks / unchecks on a profile should be applied immediately, or next time the device is connected. -->
     <string name="bluetooth_device_advanced_online_mode_title">Connect</string>
-    <!-- Bluetooth settings.  Connection options screen.  The summary of the online mode checkbox.  This describes what the setting does in the context of the screen. -->
+    <!-- Bluetooth settings. Connection options screen. The summary of the online mode checkbox. This describes what the setting does in the context of the screen. -->
     <string name="bluetooth_device_advanced_online_mode_summary">Connect to Bluetooth device</string>
-    <!-- Bluetooth settings.  Connection options screen.  The title of the header that is above all of the profiles. -->
+    <!-- Bluetooth settings. Connection options screen. The title of the header that is above all of the profiles. -->
     <string name="bluetooth_device_advanced_profile_header_title">Profiles</string>
-    <!-- Bluetooth settings.  Connection options screen.  The summary for the A2DP checkbox preference when A2DP is connected. -->
+    <!-- Bluetooth settings. Connection options screen. The summary for the A2DP checkbox preference when A2DP is connected. -->
     <string name="bluetooth_a2dp_profile_summary_connected">Connected to media audio</string>
-    <!-- Bluetooth settings.  Connection options screen.  The summary for the headset checkbox preference when headset is connected. -->
+    <!-- Bluetooth settings. Connection options screen. The summary for the headset checkbox preference when headset is connected. -->
     <string name="bluetooth_headset_profile_summary_connected">Connected to phone audio</string>
-    <!-- Bluetooth settings.  Connection options screen.  The summary for the OPP checkbox preference when OPP is connected. -->
+    <!-- Bluetooth settings. Connection options screen. The summary for the OPP checkbox preference when OPP is connected. -->
     <string name="bluetooth_opp_profile_summary_connected">Connected to file transfer server</string>
-    <!-- Bluetooth settings.  Connection options screen.  The summary for the OPP checkbox preference when OPP is not connected. -->
+    <!-- Bluetooth settings. Connection options screen. The summary for the OPP checkbox preference when OPP is not connected. -->
     <string name="bluetooth_opp_profile_summary_not_connected">Not connected to file transfer server</string>
 
-    <!-- Bluetooth settings.  Connection options screen.  The summary for the A2DP checkbox preference that describes how checking it will set the A2DP profile as preferred. -->
+    <!-- Bluetooth settings. Connection options screen. The summary for the A2DP checkbox preference that describes how checking it will set the A2DP profile as preferred. -->
     <string name="bluetooth_a2dp_profile_summary_use_for">Use for media audio</string>
-    <!-- Bluetooth settings.  Connection options screen.  The summary for the headset checkbox preference that describes how checking it will set the headset profile as preferred. -->
+    <!-- Bluetooth settings. Connection options screen. The summary for the headset checkbox preference that describes how checking it will set the headset profile as preferred. -->
     <string name="bluetooth_headset_profile_summary_use_for">Use for phone audio</string>
-    <!-- Bluetooth settings.  Connection options screen.  The summary for the OPP checkbox preference that describes how checking it will set the OPP profile as preferred. -->
+    <!-- Bluetooth settings. Connection options screen. The summary for the OPP checkbox preference that describes how checking it will set the OPP profile as preferred. -->
     <string name="bluetooth_opp_profile_summary_use_for">Use for file transfer</string>
 
-    <!-- Bluetooth settings.  Dock Setting Title -->
+    <!-- Bluetooth settings. Dock Setting Title -->
     <string name="bluetooth_dock_settings">Dock Settings</string>
-    <!-- Bluetooth settings.  Dock Setting Dialog Title -->
+    <!-- Bluetooth settings. Dock Setting Dialog Title -->
     <string name="bluetooth_dock_settings_title">Use dock for audio</string>
-    <!-- Bluetooth settings.  Dock Setting Dialog - Checkbox selection 1: Use dock as speaker phone -->
+    <!-- Bluetooth settings. Dock Setting Dialog - Checkbox selection 1: Use dock as speaker phone -->
     <string name="bluetooth_dock_settings_headset">As speaker phone</string>
-    <!-- Bluetooth settings.  Dock Setting Dialog - Checkbox selection 2: Use dock for media audio -->
+    <!-- Bluetooth settings. Dock Setting Dialog - Checkbox selection 2: Use dock for media audio -->
     <string name="bluetooth_dock_settings_a2dp">For music and media</string>
-    <!-- Bluetooth settings.  Dock Setting Dialog - Remember setting and don't ask user again -->
+    <!-- Bluetooth settings. Dock Setting Dialog - Remember setting and don't ask user again -->
     <string name="bluetooth_dock_settings_remember">Remember settings</string>
 
     <!-- NFC settings -->
@@ -881,7 +881,7 @@
     <string name="wifi_cancel">Cancel</string>
 
     <!-- Wi-Fi Advanced Settings --> <skip />
-    <!-- Wi-Fi settings screen, advanced, settings section.  This is a header shown above advanced wifi settings. -->
+    <!-- Wi-Fi settings screen, advanced, settings section. This is a header shown above advanced wifi settings. -->
     <string name="wifi_advanced_titlebar">Advanced</string>
     <!-- Wi-Fi settings screen, setting title for choosing the number of channels to be used -->
     <string name="wifi_setting_num_channels_title">Regulatory domain</string>
@@ -1034,9 +1034,9 @@
     <string name="sound_settings">Sound settings</string>
     <!-- Sound settings screen, setting option name checkbox -->
     <string name="silent_mode_title">Silent mode</string>
-    <!-- Sound settings screen, setting option summary text when going into silent mode.  Media and alarms sounds WILL NOT be silenced in silent mode. -->
+    <!-- Sound settings screen, setting option summary text when going into silent mode. Media and alarms sounds WILL NOT be silenced in silent mode. -->
     <string name="silent_mode_summary">Silence all sounds except media &amp; alarms</string>
-    <!-- Sound settings screen, setting option summary text when going into silent mode.  Media WILL NOT be silenced in silent mode, but alarms WILL be silenced. -->
+    <!-- Sound settings screen, setting option summary text when going into silent mode. Media WILL NOT be silenced in silent mode, but alarms WILL be silenced. -->
     <string name="silent_mode_incl_alarm_summary">All sounds except media are silenced</string>
     <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
     <string name="ringtone_title">Phone ringtone</string>
@@ -1216,20 +1216,20 @@
     <!-- Advanced (used for diagnostics) device info activity title -->
     <string name="device_info_settings">Phone status</string>
 
-    <!-- About phone screen, list item title.  Takes the user to the screen for seeing and installing system updates. -->
+    <!-- About phone screen, list item title. Takes the user to the screen for seeing and installing system updates. -->
     <string name="system_update_settings_list_item_title">System updates</string>
-    <!-- About phone screen, list item summary.  Takes the user to the screen for seeing and installing system updates. -->
+    <!-- About phone screen, list item summary. Takes the user to the screen for seeing and installing system updates. -->
     <string name="system_update_settings_list_item_summary">""</string>
 
     <!-- About phone screen, status item label -->
     <string name="firmware_version">Android version</string>
     <!-- About phone screen, status item label-->
     <string name="model_number">Model number</string>
-    <!-- About phone screen,  setting option name-->
+    <!-- About phone screen, setting option name-->
     <string name="baseband_version">Baseband version</string>
-    <!-- About phone screen,  setting option name-->
+    <!-- About phone screen, setting option name-->
     <string name="kernel_version">Kernel version</string>
-    <!-- About phone screen,  setting option name-->
+    <!-- About phone screen, setting option name-->
     <string name="build_number">Build number</string>
 
     <!-- About phone screen, show when a value of some status item is unavailable. -->
@@ -1253,56 +1253,56 @@
     <string name="status_imei">IMEI</string>
     <!-- Do not translate. About phone, status item title -->
     <string name="status_imei_sv">IMEI SV</string>
-    <!-- About phone, status item title.  The phone number of the current device.-->
+    <!-- About phone, status item title. The phone number of the current device.-->
     <string name="status_number">My phone number</string>
-    <!-- About phone, status item title.  The phone MIN number of the current device.-->
+    <!-- About phone, status item title. The phone MIN number of the current device.-->
     <string name="status_min_number">MIN</string>
-    <!-- About phone, status item title.  The phone PRL Version of the current device.-->
+    <!-- About phone, status item title. The phone PRL Version of the current device.-->
     <string name="status_prl_version">PRL Version</string>
-    <!-- About phone, status item title.  The phone MEID number of the current device.-->
+    <!-- About phone, status item title. The phone MEID number of the current device.-->
     <string name="status_meid_number">MEID</string>
     <!-- About phone, status item title for the type of data phone network we're connected to, for example 3G or Edge or GPRS -->
     <string name="status_network_type">Mobile network type</string>
-    <!-- About phone, status item title. The status of data access.  For example, the value may be "Connected" -->
+    <!-- About phone, status item title. The status of data access. For example, the value may be "Connected" -->
     <string name="status_data_state">Mobile network state</string>
-    <!-- About phone, status item title. The status of whether we have service.  for example, the value may be "In service" -->
+    <!-- About phone, status item title. The status of whether we have service. for example, the value may be "In service" -->
     <string name="status_service_state">Service state</string>
-    <!-- About phone, status item title. The  current cell tower signal strength -->
+    <!-- About phone, status item title. The current cell tower signal strength -->
     <string name="status_signal_strength">Signal strength</string>
-    <!-- About phone, status item title, The status for roaming.  For example, the value might be "Not roaming" -->
+    <!-- About phone, status item title, The status for roaming. For example, the value might be "Not roaming" -->
     <string name="status_roaming">Roaming</string>
-    <!-- About phone, status item title. The cell carrier that the user is connected to.  -->
+    <!-- About phone, status item title. The cell carrier that the user is connected to. -->
     <string name="status_operator">Network</string>
-    <!-- About phone, status item title.  The MAC address of the Wi-Fi network adapter. -->
+    <!-- About phone, status item title. The MAC address of the Wi-Fi network adapter. -->
     <string name="status_wifi_mac_address">Wi-Fi MAC address</string>
-    <!-- About phone, status item title.  The bluetooth adapter's hardware address-->
+    <!-- About phone, status item title. The bluetooth adapter's hardware address-->
     <string name="status_bt_address">Bluetooth address</string>
     <!-- About phone, status item value if the actual value is not available. -->
     <string name="status_unavailable">Unavailable</string>
-    <!-- About phone, status item title.  How long the device has been running since its last reboot. -->
+    <!-- About phone, status item title. How long the device has been running since its last reboot. -->
     <string name="status_up_time">Up time</string>
-    <!-- About phone, status item title.  How much time the device has had its main CPU awake. -->
+    <!-- About phone, status item title. How much time the device has had its main CPU awake. -->
     <string name="status_awake_time">Awake time</string>
-    <!-- SD card & phone storage settings screen heading. This is displayed above items that pertain to the phone's internal storage  -->
+    <!-- SD card & phone storage settings screen heading. This is displayed above items that pertain to the phone's internal storage -->
     <string name="internal_memory">Internal storage</string>
-    <!-- SD card & additional storage settings screen heading. This is displayed above items that pertain to the phone's additional storage  -->
+    <!-- SD card & additional storage settings screen heading. This is displayed above items that pertain to the phone's additional storage -->
     <string name="additional_memory">Additional storage</string>
     <!-- SD card & phone storage settings screen heading. This is displayed above items that pertain to the SD card [CHAR LIMIT=30] -->
     <string name="sd_memory" product="nosdcard">USB storage</string>
     <!-- SD card & phone storage settings screen heading. This is displayed above items that pertain to the SD card -->
     <string name="sd_memory" product="default">SD card</string>
-    <!-- SD card & phone storage settings title. The amount of free space for some storage partition.  For example, this is listed under both the "Internal phone storage" section and the "SD card" section. -->
+    <!-- SD card & phone storage settings title. The amount of free space for some storage partition. For example, this is listed under both the "Internal phone storage" section and the "SD card" section. -->
     <string name="memory_available">Available space</string>
-    <!-- SD card & phone storage settings screen heading.  The total amount of storage space for some storage partition.  For example, this is listed under both the "Internal phone storage" section and the "SD card" section -->
+    <!-- SD card & phone storage settings screen heading. The total amount of storage space for some storage partition. For example, this is listed under both the "Internal phone storage" section and the "SD card" section -->
     <string name="memory_size">Total space</string>
-    <!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card.  This will be done before the user phyiscally removes the SD card from the phone.  Kind of like the "Safely remove" on some operating systems.   [CHAR LIMIT=25] -->
+    <!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card. This will be done before the user phyiscally removes the SD card from the phone. Kind of like the "Safely remove" on some operating systems. [CHAR LIMIT=25] -->
     <string name="sd_eject" product="default">Unmount SD card</string>
-    <!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card.  This will be done before the user phyiscally removes the SD card from the phone.  Kind of like the "Safely remove" on some operating systems.   [CHAR LIMIT=30] -->
+    <!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card. This will be done before the user phyiscally removes the SD card from the phone. Kind of like the "Safely remove" on some operating systems. [CHAR LIMIT=30] -->
     <string name="sd_eject_summary" product="nosdcard">Unmount the internal USB storage</string>
-    <!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card.  This will be done before the user phyiscally removes the SD card from the phone.  Kind of like the "Safely remove" on some operating systems.   -->
+    <!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card. This will be done before the user phyiscally removes the SD card from the phone. Kind of like the "Safely remove" on some operating systems. -->
     <string name="sd_eject_summary" product="default">Unmount the SD card so you can safely remove it</string>
 
-    <!-- SD card & phone storage settings item summary that is displayed when no SD card is inserted.  This version of the string can probably never come up on current hardware. [CHAR LIMIT=25] -->
+    <!-- SD card & phone storage settings item summary that is displayed when no SD card is inserted. This version of the string can probably never come up on current hardware. [CHAR LIMIT=25] -->
     <string name="sd_insert_summary" product="nosdcard">Insert USB storage for mounting</string>
     <!-- SD card & phone storage settings item summary that is displayed when no SD card is inserted -->
     <string name="sd_insert_summary" product="default">Insert an SD card for mounting</string>
@@ -1316,41 +1316,41 @@
     <!-- SD card & phone storage settings item title that will result in the phone mounting the SD card. -->
     <string name="sd_mount_summary" product="default">Mount the SD card</string>
 
-    <!-- SD card & phone storage settings item title that will result in the phone formatting the USB storage.   [CHAR LIMIT=25] -->
+    <!-- SD card & phone storage settings item title that will result in the phone formatting the USB storage. [CHAR LIMIT=25] -->
     <string name="sd_format" product="nosdcard">Erase USB storage</string>
-    <!-- SD card & phone storage settings item title that will result in the phone formatting the SD card.   [CHAR LIMIT=25] -->
+    <!-- SD card & phone storage settings item title that will result in the phone formatting the SD card. [CHAR LIMIT=25] -->
     <string name="sd_format" product="default">Erase SD card</string>
-    <!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card.   [CHAR LIMIT=30] -->
+    <!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card. [CHAR LIMIT=30] -->
     <string name="sd_format_summary" product="nosdcard">Erases all data on the phone\'s internal USB storage, such as music and photos</string>
-    <!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card.   -->
+    <!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card. -->
     <string name="sd_format_summary" product="default">Erases all data on the phone\'s SD card, such as music and photos</string>
     <!-- SD card status when it is not available status -->
     <string name="sd_unavailable">Unavailable</string>
-    <!-- SD card status when it is mounted as read only  -->
+    <!-- SD card status when it is mounted as read only -->
     <string name="read_only">\u0020(Read-only)</string>
-    <!-- SD card eject confirmation dialog title   [CHAR LIMIT=25] -->
+    <!-- SD card eject confirmation dialog title [CHAR LIMIT=25] -->
     <string name="dlg_confirm_unmount_title" product="nosdcard">Unmount USB storage</string>
-    <!-- SD card eject confirmation dialog title   -->
+    <!-- SD card eject confirmation dialog title -->
     <string name="dlg_confirm_unmount_title" product="default">Unmount SD card</string>
-    <!-- SD card eject confirmation dialog  [CHAR LIMIT=NONE] -->
+    <!-- SD card eject confirmation dialog [CHAR LIMIT=NONE] -->
     <string name="dlg_confirm_unmount_text" product="nosdcard">If you unmount the USB storage, some applications you are using will stop and may be unavailable until you remount the USB storage.</string>
-    <!-- SD card eject confirmation dialog  -->
+    <!-- SD card eject confirmation dialog -->
     <string name="dlg_confirm_unmount_text" product="default">If you unmount the SD card, some applications you are using will stop and may be unavailable until you remount the SD card.</string>
-    <!-- SD card eject error dialog title   [CHAR LIMIT=30] -->
+    <!-- SD card eject error dialog title [CHAR LIMIT=30] -->
     <string name="dlg_error_unmount_title" product="nosdcard">Unmounting USB storage failed</string>
-    <!-- SD card eject error dialog title   -->
+    <!-- SD card eject error dialog title -->
     <string name="dlg_error_unmount_title" product="default">Unmount SD card failed</string>
-    <!-- SD card eject error dialog text   [CHAR LIMIT=NONE] -->
+    <!-- SD card eject error dialog text [CHAR LIMIT=NONE] -->
     <string name="dlg_error_unmount_text" product="nosdcard">Cannot unmount USB storage. Try again later.</string>
-    <!-- SD card eject error dialog text   -->
+    <!-- SD card eject error dialog text -->
     <string name="dlg_error_unmount_text" product="default">Cannot unmount SD card. Try again later.</string>
-    <!-- SD card unmount informative text   [CHAR LIMIT=NONE] -->
+    <!-- SD card unmount informative text [CHAR LIMIT=NONE] -->
     <string name="unmount_inform_text" product="nosdcard">USB storage will be unmounted.</string>
-    <!-- SD card unmount informative text   [CHAR LIMIT=NONE] -->
+    <!-- SD card unmount informative text [CHAR LIMIT=NONE] -->
     <string name="unmount_inform_text" product="default">SD card will be unmounted.</string>
-    <!-- SD card eject progress title   -->
+    <!-- SD card eject progress title -->
     <string name="sd_ejecting_title">Unmounting</string>
-    <!-- SD card eject progress text   -->
+    <!-- SD card eject progress text -->
     <string name="sd_ejecting_summary">Unmount in progress</string>
 
     <!-- Phone info screen, section titles: -->
@@ -1389,7 +1389,7 @@
     <string name="apn_mcc">MCC</string>
     <!-- Edit access point labels: -->
     <string name="apn_mnc">MNC</string>
-    <!-- Edit acces  point labels: Authenticaton type-->
+    <!-- Edit acces point labels: Authenticaton type-->
     <string name="apn_auth_type">Authentication type</string>
     <!-- Authentication Typs: None -->
     <string name="apn_auth_type_none">None</string>
@@ -1610,9 +1610,9 @@
     <string name="lock_settings_title">Screen unlock</string>
     <!-- Security & location settings screen, setting option name -->
     <string name="lockpattern_change_lock_pattern_label">Change unlock pattern</string>
-    <!-- Security & location settings screen, change unlock pattern screen instruction when the user chooses "Change unlock pattern".  We first ask the user toe nter the current pattern, and this is the message seen -->
+    <!-- Security & location settings screen, change unlock pattern screen instruction when the user chooses "Change unlock pattern". We first ask the user toe nter the current pattern, and this is the message seen -->
     <string name="lockpattern_change_lock_pin_label">Change unlock PIN</string>
-    <!-- Security & location settings screen, change unlock pattern screen instruction when the user chooses "Change unlock pattern".  We first ask the user toe nter the current pattern, and this is the message seen -->
+    <!-- Security & location settings screen, change unlock pattern screen instruction when the user chooses "Change unlock pattern". We first ask the user toe nter the current pattern, and this is the message seen -->
     <string name="lockpattern_need_to_unlock">Confirm saved pattern</string>
     <!-- Do not translate. -->
     <string name="lockpattern_need_to_unlock_footer"></string>
@@ -1620,9 +1620,9 @@
     <string name="lockpattern_need_to_unlock_wrong">Sorry, try again:</string>
     <!-- Do not translate. -->
     <string name="lockpattern_need_to_unlock_wrong_footer"></string>
-    <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen.  This si when they are supposed to draw a new unlock pattern (for example, if they are changing their unlock patterns)..-->
+    <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen. This si when they are supposed to draw a new unlock pattern (for example, if they are changing their unlock patterns)..-->
     <string name="lockpattern_recording_intro_header">Draw an unlock pattern</string>
-    <!-- Security & location settings screen, change unlock pattern screen hint on bottom of screen.  We are telling them to press the menu button to see more options or help. -->
+    <!-- Security & location settings screen, change unlock pattern screen hint on bottom of screen. We are telling them to press the menu button to see more options or help. -->
     <string name="lockpattern_recording_intro_footer">Press Menu for help.</string>
     <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen while drawing pattern -->
     <string name="lockpattern_recording_inprogress">Release finger when done.</string>
@@ -1633,9 +1633,9 @@
     <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen to confirm pattern -->
     <string name="lockpattern_need_to_confirm">Draw pattern again to confirm:</string>
     <string name="lockpattern_pattern_confirmed_header">Your new unlock pattern:</string>
-    <!-- Security & location settings screen, change unlock pattern screen button, on bottom of screen.  After they draw a pattern and release their finger, we display the pattern so they remember.  When they are ready to draw it once again to confirm it, they press this button. -->
+    <!-- Security & location settings screen, change unlock pattern screen button, on bottom of screen. After they draw a pattern and release their finger, we display the pattern so they remember. When they are ready to draw it once again to confirm it, they press this button. -->
     <string name="lockpattern_confirm_button_text">Confirm</string>
-    <!-- Security & location settings screen, change unlock pattern screen button, on bottom of screen.  After they draw a pattern and release their finger, we display the pattern so they remember.  If they are nto satisfied with this pattern, they click this button to redraw the pattern. -->
+    <!-- Security & location settings screen, change unlock pattern screen button, on bottom of screen. After they draw a pattern and release their finger, we display the pattern so they remember. If they are nto satisfied with this pattern, they click this button to redraw the pattern. -->
     <string name="lockpattern_restart_button_text">Redraw</string>
     <!-- Security & location settings screen, change unlock pattern screen button, on bottom of screen. If they are supposed to enter their current pattern before being able to draw another one, and they screw up, they hit this button to try again -->
     <string name="lockpattern_retry_button_text">Retry</string>
@@ -1647,7 +1647,7 @@
     <string name="lockpattern_settings_enable_title">Require pattern</string>
     <!-- Security & location settings screen, setting summary for the checkbox "Require pattern" -->
     <string name="lockpattern_settings_enable_summary">Must draw pattern to unlock screen</string>
-    <!-- Security & location settings screen, setting check box title. This setting controls whether a visible green line is drawn as the user moves his finger around while drawing the unlock pattern.  If checked, this line is drawn.  If unchecked, there is nothing drawn so the user does not reveal his pattern while he unlocks the phone.-->
+    <!-- Security & location settings screen, setting check box title. This setting controls whether a visible green line is drawn as the user moves his finger around while drawing the unlock pattern. If checked, this line is drawn. If unchecked, there is nothing drawn so the user does not reveal his pattern while he unlocks the phone.-->
     <string name="lockpattern_settings_enable_visible_pattern_title">Use visible pattern</string>
     <!-- Security & location settings screen, setting check box title. This setting controls whether tactile feedback will be produced when the user draws the pattern.-->
     <string name="lockpattern_settings_enable_tactile_feedback_title">Use tactile feedback</string>
@@ -1687,9 +1687,9 @@
     </string>
 
     <!-- Applications Settings --> <skip />
-    <!-- Applications settings screen, setting option name for the user to go to the screen to manage installed applications  -->
+    <!-- Applications settings screen, setting option name for the user to go to the screen to manage installed applications -->
     <string name="manageapplications_settings_title">Manage applications</string>
-    <!-- Applications settings screen, setting option summary for the user to go to the screen to manage installed applications  -->
+    <!-- Applications settings screen, setting option summary for the user to go to the screen to manage installed applications -->
     <string name="manageapplications_settings_summary">Manage and remove installed applications</string>
     <!-- Applications settings title, on main settings screen. If clicked, the user is taken to a settings screen full of application settings-->
     <string name="applications_settings">Applications</string>
@@ -1697,9 +1697,9 @@
     <string name="applications_settings_summary">Manage applications, set up quick launch shortcuts</string>
     <!-- Applications settings screen heading. The header for the Application settings screen. -->
     <string name="applications_settings_header">Application settings</string>
-    <!-- Applications settings screen, setting check box title. If checked, the system allows installation of applications that are downloaded from random places, such as web sites.  -->
+    <!-- Applications settings screen, setting check box title. If checked, the system allows installation of applications that are downloaded from random places, such as web sites. -->
     <string name="install_applications">Unknown sources</string>
-    <!-- Applications settings screen, setting check box summary.  This is the summary for "Unknown sources" checkbox  -->
+    <!-- Applications settings screen, setting check box summary. This is the summary for "Unknown sources" checkbox -->
     <string name="install_unknown_applications">Allow installation of non-Market applications</string>
     <!-- Applications settings screen, message text of alert that appears if user selects the "Unknown sources" check box -->
     <string name="install_all_warning">Your phone and personal data are more vulnerable to attack by applications
@@ -1710,7 +1710,7 @@
     <string name="application_info_label">Application info</string>
     <!-- Manage applications, individual application info screen, section heading for stuff relating to an app's storage settings. -->
     <string name="storage_label">Storage</string>
-    <!-- Manage applications, individual application info screen,  heading for settings related to controlling whether this app is the default for some actions -->
+    <!-- Manage applications, individual application info screen, heading for settings related to controlling whether this app is the default for some actions -->
     <string name="auto_launch_label">Launch by default</string>
     <!-- Manage applications, individual application info screen, heading for settings related to the app's permissions. for example, it may list all the permissions the app has. -->
     <string name="permissions_label">Permissions</string>
@@ -1724,11 +1724,11 @@
     <string name="controls_label">Controls</string>
     <!-- Manage applications, text label for button to kill / force stop an application -->
     <string name="force_stop">Force stop</string>
-    <!-- Manage applications, individual application info screen,label under Storage heading.  The total storage space taken up by this app. -->
+    <!-- Manage applications, individual application info screen,label under Storage heading. The total storage space taken up by this app. -->
     <string name="total_size_label">Total</string>
     <!-- Manage applications, individual application info screen, label under Storage heading. The amount of space taken up by the application itself (for example, the java compield files and things like that) -->
     <string name="application_size_label">Application</string>
-    <!-- Manage applications, individual application info screen, label under Storage heading.  The amount of sapce taken up by the app's data (for example, downloaded emails or something like that) -->
+    <!-- Manage applications, individual application info screen, label under Storage heading. The amount of sapce taken up by the app's data (for example, downloaded emails or something like that) -->
     <string name="data_size_label">Data</string>
     <!-- Manage applications, individual application info screen, button label under Storage heading. Button to remove the application from the system. -->
     <string name="uninstall_text">Uninstall</string>
@@ -1744,17 +1744,17 @@
     <string name="auto_launch_enable_text">You have selected to launch this application by default for some actions.</string>
     <!-- Manage applications, individual application screen, text under Launch by default heading if the app is NOT a default for actions -->
     <string name="auto_launch_disable_text">No defaults set.</string>
-    <!-- Manage applications, individual application screen, button label under Launch by default heading.  This is used to clear any default actions that may be assigned to this app.  -->
+    <!-- Manage applications, individual application screen, button label under Launch by default heading. This is used to clear any default actions that may be assigned to this app. -->
     <string name="clear_activities">Clear defaults</string>
     <!-- Manage apps, individual app screen, substituted for the application's label when the app's label CAN NOT be determined.-->
     <string name="unknown">Unknown</string>
-    <!-- [CHAR LIMIT=25] Manage applications screen, menu item.  Sorts all of the apps in the list alphabetically. -->
+    <!-- [CHAR LIMIT=25] Manage applications screen, menu item. Sorts all of the apps in the list alphabetically. -->
     <string name="sort_order_alpha">Sort by name</string>
-    <!-- Manage applications screen, menu item. Sorts all of the apps in the list based on their file size.  This is used to uninstall when space is getting low. -->
+    <!-- Manage applications screen, menu item. Sorts all of the apps in the list based on their file size. This is used to uninstall when space is getting low. -->
     <string name="sort_order_size">Sort by size</string>
-    <!-- [CHAR LIMIT=25] Manage applications screen, menu item.  Show running services. -->
+    <!-- [CHAR LIMIT=25] Manage applications screen, menu item. Show running services. -->
     <string name="show_running_services">Show running services</string>
-    <!-- [CHAR LIMIT=25] Manage applications screen, menu item.  Show background cached processes. -->
+    <!-- [CHAR LIMIT=25] Manage applications screen, menu item. Show background cached processes. -->
     <string name="show_background_processes">Show cached processes</string>
     <!-- Manage applications screen, individual app screen, button label when the user wants to manage the space taken up by an app. -->
     <string name="manage_space_text">Manage space</string>
@@ -1824,9 +1824,9 @@ found in the list of installed applications.</string>
     <string name="move_app">Move</string>
     <!-- Manage applications, text for Move button to move app to internal storage -->
     <string name="move_app_to_internal">Move to phone</string>
-    <!-- Manage applications, text for Move button  to move app to sdcard [CHAR LIMIT=25] -->
+    <!-- Manage applications, text for Move button to move app to sdcard [CHAR LIMIT=25] -->
     <string name="move_app_to_sdcard" product="nosdcard">Move to USB storage</string>
-    <!-- Manage applications, text for Move button  to move app to sdcard -->
+    <!-- Manage applications, text for Move button to move app to sdcard -->
     <string name="move_app_to_sdcard" product="default">Move to SD card</string>
     <!-- Manage applications, title for dialog when killing persistent apps-->
     <!-- Manage applications, text for Move button when move is in progress -->
@@ -1841,7 +1841,7 @@ found in the list of installed applications.</string>
 
     <string name="force_stop_dlg_title">Force stop</string>
     <!-- [CHAR LIMIT=200] Manage applications, text for dialog when killing persistent apps-->
-    <string name="force_stop_dlg_text">Force stopping an application can cause it to misbehave.  Are you sure?</string>
+    <string name="force_stop_dlg_text">Force stopping an application can cause it to misbehave. Are you sure?</string>
     <!-- Manage applications, text for dialog when moving an app -->
     <string name="move_app_failed_dlg_title">Move application</string>
     <!-- Manage applications, text for dialog moving an app -->
@@ -1858,7 +1858,7 @@ found in the list of installed applications.</string>
 
     <!-- Services settings screen, setting option name for the user to go to the screen to view running services -->
     <string name="runningservices_settings_title">Running services</string>
-    <!-- Services settings screen, setting option summary for the user to go to the screen to view running services  -->
+    <!-- Services settings screen, setting option summary for the user to go to the screen to view running services -->
     <string name="runningservices_settings_summary">View and control currently running services</string>
     <!-- Label for a service item when it is restarting -->
     <string name="service_restarting">Restarting</string>
@@ -1905,17 +1905,17 @@ found in the list of installed applications.</string>
     <string name="service_manage">Settings</string>
     <!-- Running service details, default description for services that are started. -->
     <string name="service_stop_description">This service was started by its
-        application.  Stopping it may cause the application to fail.</string>
+        application. Stopping it may cause the application to fail.</string>
     <!-- Running service details, description for running heavy-weight process. -->
     <string name="heavy_weight_stop_description">This application can not safely
-        be stopped.  Doing so may lose some of your current work.</string>
+        be stopped. Doing so may lose some of your current work.</string>
     <!-- Running service details, description for background process. -->
     <string name="background_process_stop_description">This is an old application
         process that is being kept for better speed in case it is needed again.
         There is usually no reason to stop it.</string>
     <!-- Running service details, default description for services that are managed. -->
     <string name="service_manage_description"><xliff:g id="client_name">%1$s</xliff:g>:
-        currently in use.  Touch Settings to control it.</string>
+        currently in use. Touch Settings to control it.</string>
     <!-- Description of the main process in the details. -->
     <string name="main_running_process_description">Main process that is in use.</string>
     <!-- Message that a process's service is in use. -->
@@ -1932,7 +1932,7 @@ found in the list of installed applications.</string>
         and then on again.</string>
     
     <!-- Language Settings --> <skip />
-    <!-- Title of setting on main settings screen.  This item will take the user to the screen to tweak settings realted to locale and text -->
+    <!-- Title of setting on main settings screen. This item will take the user to the screen to tweak settings realted to locale and text -->
     <string name="language_settings">Language &amp; keyboard</string>
     <!-- Title of Language and keyboard settings screen -->
     <string name="language_keyboard_settings_title">Language &amp; keyboard settings</string>
@@ -1946,19 +1946,19 @@ found in the list of installed applications.</string>
     <string name="phone_language_summary">""</string>
     <!-- On Text & language settings screen, setting option name. title of the setting to enable autoreplace of entered text. auto replace is a feature that will automatically correct mistyped words. -->
     <string name="auto_replace">Auto-replace</string>
-    <!-- On Text & language settings screen, setting summary.  This is the summary for the "Auto-replace" setting. -->
+    <!-- On Text & language settings screen, setting summary. This is the summary for the "Auto-replace" setting. -->
     <string name="auto_replace_summary">Correct mistyped words</string>
-    <!-- On Text & language settings screen, setting option name.  title of the setting to enable autocapitalization of entered text.  for example, after the user finishes a sentence, the next letter he types will automatically be capitalizated. -->
+    <!-- On Text & language settings screen, setting option name. title of the setting to enable autocapitalization of entered text. for example, after the user finishes a sentence, the next letter he types will automatically be capitalizated. -->
     <string name="auto_caps">Auto-cap</string>
     <!-- On Text & language settings screen, setting summary. Summary for the Auto-cap setting. -->
     <string name="auto_caps_summary">Capitalize first letter in sentences</string>
-    <!-- On Text & language settings screen, setting option name. title of the setting to enable automatic punctuation of entered text.  for example, it will change an entered "youre" to "you're". -->
+    <!-- On Text & language settings screen, setting option name. title of the setting to enable automatic punctuation of entered text. for example, it will change an entered "youre" to "you're". -->
     <string name="auto_punctuate">Auto-punctuate</string>
     <!-- On Text & language settings screen, category for physical keyboard text entry options. -->
     <string name="hardkeyboard_category">Physical keyboard settings</string>
     <!-- On Text & language settings screen, setting summary for the Auto-punctuate setting. -->
     <string name="auto_punctuate_summary">Press Space key twice to insert \u0022.\u0022</string>
-    <!-- On Security & location settings screen, setting check box name. Title of the checkbox to set whether password edit fields will show the most recent character typed and then hide it, or just hide it right away.  By hide, I mean mask it out. -->
+    <!-- On Security & location settings screen, setting check box name. Title of the checkbox to set whether password edit fields will show the most recent character typed and then hide it, or just hide it right away. By hide, I mean mask it out. -->
     <string name="show_password">Visible passwords</string>
     <!-- On Security & location settings screen, setting check box summary. Summary for the visible passwords setting. -->
     <string name="show_password_summary">Show password as you type</string>
@@ -1966,7 +1966,7 @@ found in the list of installed applications.</string>
          message when the user selects to enable an IME. -->
     <string name="ime_security_warning">This input method may be able to collect
     all the text you type, including personal data like passwords and credit
-    card numbers.  It comes from the application
+    card numbers. It comes from the application
     <xliff:g id="ime_application_name">%1$s</xliff:g>.
     Use this input method?</string>
 
@@ -1975,7 +1975,7 @@ found in the list of installed applications.</string>
     <string name="user_dict_settings_titlebar">User dictionary</string>
     <!-- User dictionary settings, The title of the list item to go into the User dictionary settings screen. -->
     <string name="user_dict_settings_title">User dictionary</string>
-    <!-- User dictionary settings.  The summary of the listem item to go into the User dictionary settings screen. -->
+    <!-- User dictionary settings. The summary of the listem item to go into the User dictionary settings screen. -->
     <string name="user_dict_settings_summary">""</string>
     <!-- User dictionary settings. The title of the menu item to add a new word to the user dictionary. -->
     <string name="user_dict_settings_add_menu_title">Add</string>
@@ -1992,11 +1992,11 @@ found in the list of installed applications.</string>
 
     <!-- This is for diagnostics screen. The title of a screen with various items realted to launching screens that will giev the user info. For example, it contains "Phone information" and "Battery information" -->
     <string name="testing">Testing</string>
-    <!-- In the Testing screen.  The item title of the activity that shows a bunch of phone-related information.  -->
+    <!-- In the Testing screen. The item title of the activity that shows a bunch of phone-related information. -->
     <string name="testing_phone_info">Phone information</string>
-    <!-- In the Testing screen. The item title of the activity that shows a bunch of battery-related information.  -->
+    <!-- In the Testing screen. The item title of the activity that shows a bunch of battery-related information. -->
     <string name="testing_battery_info">Battery information</string>
-    <!-- Do not translate. In the Testing screen. The item title of the activity that shows a bunch of SIM-related operations.  -->
+    <!-- Do not translate. In the Testing screen. The item title of the activity that shows a bunch of SIM-related operations. -->
     <string name="testing_sim_toolkit">SIM toolkit</string>
 
     <!-- The title of the item to go into the Quick launch settings. -->
@@ -2007,17 +2007,17 @@ found in the list of installed applications.</string>
     <string name="quick_launch_assign_application">Assign application</string>
     <!-- On the Quick launch settings screen, summary text for the item of letters that are not assigned. See the quick launch "Assign application" for a description of quick launch -->
     <string name="quick_launch_no_shortcut">No shortcut</string>
-    <!-- On the Quick launch settings screen, summary text under the item for each assigned letter.  -->
+    <!-- On the Quick launch settings screen, summary text under the item for each assigned letter. -->
     <string name="quick_launch_shortcut">Search + <xliff:g id="shortcut_letter">%1$s</xliff:g></string>
-    <!-- On the Quick launch settings screen, title of "Clear shortcut" confirmation dialog. This is reached by longpressing an item for a shortcut letter.  This allows the user to clear the assigned application for that shortcut letter. -->
+    <!-- On the Quick launch settings screen, title of "Clear shortcut" confirmation dialog. This is reached by longpressing an item for a shortcut letter. This allows the user to clear the assigned application for that shortcut letter. -->
     <string name="quick_launch_clear_dialog_title">Clear</string>
-    <!-- On the Quick launch settings screen, message in the "Clear shortcut" confirmation dialog.  See the title for this dialog for more info. -->
+    <!-- On the Quick launch settings screen, message in the "Clear shortcut" confirmation dialog. See the title for this dialog for more info. -->
     <string name="quick_launch_clear_dialog_message">Your shortcut for <xliff:g id="shortcut_letter">%1$s</xliff:g> (<xliff:g id="application_name">%2$s</xliff:g>) will be cleared.</string>
     <!-- Clear dialog for quick launch setting box button labels: -->
     <string name="quick_launch_clear_ok_button">OK</string>
     <!-- Clear dialog for quick launch setting box button labels: -->
     <string name="quick_launch_clear_cancel_button">Cancel</string>
-    <!-- Quick launch screen, when assigning an app to a shortcut, this menu item to show a list of all applications.  -->
+    <!-- Quick launch screen, when assigning an app to a shortcut, this menu item to show a list of all applications. -->
     <string name="quick_launch_display_mode_applications">Applications</string>
     <!-- Quick launch screen, when assigning an app to a shortcut, this menu item to show a list of all shortcutable applications -->
     <string name="quick_launch_display_mode_shortcuts">Shortcuts</string>
@@ -2034,9 +2034,9 @@ found in the list of installed applications.</string>
     <!-- Summary for built-in keyboard settings -->
     <string name="builtin_keyboard_settings_summary">Built-in, physical keyboard settings</string>
 
-    <!-- Development Settings.  the title for the item to take the user to Development settings.  Development settings are settings meant for application developers.  -->
+    <!-- Development Settings. the title for the item to take the user to Development settings. Development settings are settings meant for application developers. -->
     <string name="development_settings_title">Development</string>
-    <!-- Development Settings summary.  The summary of the item to take the user to Development settings.  Development settings are settings meant for application developers. -->
+    <!-- Development Settings summary. The summary of the item to take the user to Development settings. Development settings are settings meant for application developers. -->
     <string name="development_settings_summary">Set options for application development</string>
     <!-- Setting checkbox title for Whether to enable USB debugging support on the phone. -->
     <string name="enable_adb">USB debugging</string>
@@ -2044,11 +2044,11 @@ found in the list of installed applications.</string>
     <string name="enable_adb_summary">Debug mode when USB is connected</string>
     <!-- Setting Checkbox title whether to keep the screen on when plugged in to a power source -->
     <string name="keep_screen_on">Stay awake</string>
-    <!-- setting Checkbox summary whether to keep the screen on when plugged in  -->
+    <!-- setting Checkbox summary whether to keep the screen on when plugged in -->
     <string name="keep_screen_on_summary">Screen will never sleep while charging</string>
     <!-- Setting Checkbox title whether to allow mock locations -->
     <string name="allow_mock_location">Allow mock locations</string>
-    <!-- setting Checkbox summary whether to allow mock locations  -->
+    <!-- setting Checkbox summary whether to allow mock locations -->
     <string name="allow_mock_location_summary">Allow mock locations</string>
     <!-- Title of warning dialog about the implications of enabling USB debugging -->
     <string name="adb_warning_title">Allow USB debugging?</string>
@@ -2056,12 +2056,12 @@ found in the list of installed applications.</string>
     <string name="adb_warning_message">USB debugging is intended for development purposes only. It can be used to copy data between your computer and your device, install applications on your device without notification, and read log data.</string>
 
     <!-- Title for the screen that lets the user choose a gadget to add to the home screen
-         (or other screens that can host gadgets).  Note to translators: we're still determining
+         (or other screens that can host gadgets). Note to translators: we're still determining
          the final name for Gadgets/Widgets, so please translate both for now. -->
     <string name="gadget_picker_title">Choose gadget</string>
 
     <!-- Title for the screen that lets the user choose a widget to add to the home screen
-         (or other screens that can host widgets).  Note to translators: we're still determining
+         (or other screens that can host widgets). Note to translators: we're still determining
          the final name for Gadgets/Widgets, so please translate both for now. -->
     <string name="widget_picker_title">Choose widget</string>
 
@@ -2080,7 +2080,7 @@ found in the list of installed applications.</string>
     <!-- XXX remove? Strings used for displaying usage statistics -->
     <string name="usage_stats_label">Usage statistics</string>
 
-    <!-- In the Testing screen. The item title of the activity that shows usage statistics.  -->
+    <!-- In the Testing screen. The item title of the activity that shows usage statistics. -->
     <string name="testing_usage_stats">Usage statistics</string>
     <!-- label for text to indicate sort options -->
     <string name="display_order_text">Sort by:</string>
@@ -2303,7 +2303,7 @@ found in the list of installed applications.</string>
     <string name="recognizer_settings_summary">Settings for \'<xliff:g id="recognizer_name">%s</xliff:g>\'</string>
 
     <!-- Text-To-Speech (TTS) settings --><skip />
-    <!-- Title of setting on main settings screen.  This item will take the user to the screen to tweak settings related to the text-to-speech functionality -->
+    <!-- Title of setting on main settings screen. This item will take the user to the screen to tweak settings related to the text-to-speech functionality -->
     <string name="tts_settings">Text-to-speech settings</string>
     <!-- Main TTS Settings screen title -->
     <string name="tts_settings_title">Text-to-speech settings</string>
@@ -2353,7 +2353,7 @@ found in the list of installed applications.</string>
          message when the user selects to enable an engine. -->
     <string name="tts_engine_security_warning">This speech synthesis engine may be able to collect
     all the text that will be spoken, including personal data like passwords and credit
-    card numbers.  It comes from the <xliff:g id="tts_plugin_engine_name">%s</xliff:g> engine.
+    card numbers. It comes from the <xliff:g id="tts_plugin_engine_name">%s</xliff:g> engine.
     Enable the use of this speech synthesis engine?</string>
     <!-- On main TTS Settings screen, text for divider under which all TTS engines are listed -->
     <string name="tts_engines_section">Engines</string>
@@ -2661,48 +2661,48 @@ found in the list of installed applications.</string>
     <!-- A menu item in "About phone" that allows the user to update the phone with settings
     from their cell phone carrier. The use of the string is similar to the string
     "system_update_settings_list_item_title" in this project. [CHAR LIMIT=25] -->
-    <string name="additional_system_update_settings_list_item_title">Additional system updates</string>    
+    <string name="additional_system_update_settings_list_item_title">Additional system updates</string>
 
-    	<!-- Advances settings -->
-    <!-- Divers -->	
+     <!-- Advances settings -->
+    <!-- Divers -->
     <string name="mnlk_Settings">Advance Settings</string>
-    <string name="error">Error</string>	
+    <string name="error">Error</string>
     <string name="rebooting">Rebooting...</string>
-    <string name="hardware">Hardware</string> 
-    <string name="download_install_error">Download or install has finished unexpectedly!</string>    
+    <string name="hardware">Hardware</string>
+    <string name="download_install_error">Download or install has finished unexpectedly!</string>
        
     <!-- Trackball settings -->
     <string name="Trackball_settings_title">Trackball Settings</string>
     <string name="pref_trackball_wake_title">Trackball wake</string>
     <string name="pref_trackball_wake_summary">Pressing the trackball wakes the device</string>
-    <string name="pref_trackball_unlock_title">Trackball unlock</string>    
+    <string name="pref_trackball_unlock_title">Trackball unlock</string>
     <string name="pref_trackball_unlock_summary">Pressing the trackball unlock the device</string>
     
     <!-- ADB WIFI & USB debugging -->
-    <string name="adb_settings_title">ADB Settings</string>    
+    <string name="adb_settings_title">ADB Settings</string>
     <string name="adb_notify">USB debugging notify</string>
     <string name="adb_notify_summary">Display a notification when USB debugging is connected</string>
     <string name="adb_wifi_title">ADB wireless mode</string>
     <string name="adb_wifi_summary_on">ADB daemon started in wireless mode</string>
     <string name="adb_wifi_summary_off">ADB daemon started in usb mode\nDO NOT ACTIVE if wifi is Off, it FC</string>
     <string name="adb_wifi_on">Starting ADB in wireless mode...</string>
-    <string name="adb_wifi_off">Starting ADB in usb mode...</string>   
+    <string name="adb_wifi_off">Starting ADB in usb mode...</string>
     <string name="adb_instructions_on" formatted="false">Your computer and device must be on the same network.\n\nYou also have to start adb in wireless mode from your computer, run:\n$ adb connect %ip%:%P%</string>
     <string name="adb_instructions_off">You must plug into usb to get adb access from your computer.\n\nYou also have to restart adb in usb mode from your computer, run:\n$ adb usb</string>
 
-	<!-- Electron On / Off  -->
-    <string name="electron_beam_settings_title">Animations Settings</string>	
+<!-- Electron On / Off -->
+    <string name="electron_beam_settings_title">Animations Settings</string>
     <string name="pref_electron_beam_animation_on">Screen-on animation</string>
     <string name="pref_electron_beam_animation_off">Screen-off animation</string>
     
     <!-- System Info-->
-    <string name="system_info_title">System Info</string>    
+    <string name="system_info_title">System Info</string>
     <string name="cpu_info">CPU Info</string>
     <string name="mem_info">Mem Info (avail/total)</string>
     <string name="mod_version">Mod version</string>
-    <string name="mod_version_default">Unknown</string>  
+    <string name="mod_version_default">Unknown</string>
     
-    <!-- Music control lock screen--> 
+    <!-- Music control lock screen-->
     <string name="lockscreen_settings_title">Paramètres de l\'écran de verrouillage</string>
     <string name="pref_lockscreen_music_controls_title">Contrôles de la lecture</string>
     <string name="pref_lockscreen_music_controls_summary">Afficher les contrôles permettant de commander la lecture musicale sur l\'écran de verrouillage</string>
@@ -2710,7 +2710,7 @@ found in the list of installed applications.</string>
     <string name="pref_lockscreen_always_music_controls_summary">Toujours afficher les contrôles permettant de commander la lecture musicale, même sans lecture en cours</string>
 
     <!-- Expanded View Power Widget -->
-    <string name="title_widget_buttons">Expanded View Widget</string>    
+    <string name="title_widget_buttons">Expanded View Widget</string>
     <string name="title_expanded_widget">Notification power widget</string>
     <string name="summary_expanded_widget">Use the expanded views power widget</string>
     <string name="expanded_color_mask">Indicator color</string>
@@ -2729,7 +2729,7 @@ found in the list of installed applications.</string>
     <string name="title_toggle_networkmode">Toggle 2G/3G</string>
     <string name="title_toggle_autorotate">Toggle Orientation</string>
     <string name="title_toggle_airplane">Toggle Airplane mode</string>
-    <string name="title_toggle_sleep">Go to sleep</string>    
+    <string name="title_toggle_sleep">Go to sleep</string>
     <string name="title_button_modes">Button modes</string>
     <string name="pref_brightness_mode_title">Brightness modes</string>
     <string name="pref_brightness_mode_summary">Choose how the brightness button changes modes</string>
@@ -2754,7 +2754,9 @@ found in the list of installed applications.</string>
     
     <!-- lockscreen_phone_messaging_control -->
     <string name="pref_lockscreen_phone_messaging_control_title">Phone and Messaging</string>
-    <string name="pref_lockscreen_phone_messaging_control_summary">Phone and Messaging accesible from Locksreen.</string>          
+    <string name="pref_lockscreen_phone_messaging_control_summary">Phone and Messaging accesible from Locksreen.</string>
+
+	<string name="nl_settings_title">Paramètres Avancés</string>          
 
       
 </resources>
